@@ -273,13 +273,13 @@ section {
     margin-top: 2rem;
 }
 
-.about-details-containers {
+.about-details-container {
     justify-content: center;
     flex-direction: column;
 }
 
 .about-containers, 
-.about-details-containers{
+.about-details-container{
     display: flex;
 }
 
@@ -303,3 +303,13 @@ section {
     text-align: center;
 }
 
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
