@@ -320,7 +320,7 @@ section {
     position: relative;
 }
 
-.experince-sub-title {
+.experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
@@ -352,3 +352,5 @@ article {
 article .icon{
     cursor: default;
 }
+
+/* PROJECTS SECTION */
