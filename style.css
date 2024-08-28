@@ -231,7 +231,7 @@ section {
 
 .btn-color-1, 
 .btn-color-2 {
-    border: rgb(53, 53 53 ) 0.1rem solid;
+    border: rgb(53, 53, 53 ) 0.1rem solid;
 }
 
 .btn-color-1:hover, 
@@ -357,4 +357,25 @@ article .icon{
 
 #projects {
     position: relative;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
 }
