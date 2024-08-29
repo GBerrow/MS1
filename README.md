@@ -2,7 +2,7 @@
 
 This website is a personal portfolio for John Doe, a Fullstack Developer. The site is designed to showcase his professional experience, skills, education, and projects. It provides an overview of his technical capabilities and personal achievements, serving as a digital resume for potential employers or clients.
 
-![alt text](assets/images/Website-example.png)<br>
+![alt text](assets/Website-example.png)<br>
 
 ---
 
