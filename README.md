@@ -7,14 +7,24 @@ This website is a personal portfolio for John Doe, a Fullstack Developer. The si
 ## Contents
 
 * [Design](#design)
+    * [Typography](#typography)
     * [Wireframes](#wireframes)
 * [Features](#features)
+    * [General Features on Each Page](#general-features-on-each-page)
+    * [Accessibility](#accessibility)
 * [Technologies Used](#technologies-used)
-* [Installation](#installation)
-* [Usage](#usage)
+    * [Languages Used](#languages-used)
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
 * [Testing](#testing)
-* [Deployment](#deployment)
 * [Credits](#credits)
+    * [Code Used](#code-used)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgments](#acknowledgments)
 
 
 ---
