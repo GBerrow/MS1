@@ -11,6 +11,7 @@ This website is a personal portfolio for John Doe, a Fullstack Developer. The si
 * [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
 * [Design](#design)
+    * [Colour Scheme](#colour-scheme)
     * [Typography](#typography)
     * [Wireframes](#wireframes)
 * [Features](#features)
@@ -30,6 +31,17 @@ This website is a personal portfolio for John Doe, a Fullstack Developer. The si
     * [Media](#media)
     * [Acknowledgments](#acknowledgments)
 
+---
+
+## Introduction
+
+Welcome to the personal portfolio website of John Doe, a Fullstack Developer with a passion for creating dynamic and user-friendly web applications. This website serves as a comprehensive digital resume and portfolio, showcasing John Doe's professional experience, technical skills, educational background, and a curated collection of his projects.
+
+The primary purpose of this website is to provide potential employers, clients, and collaborators with an in-depth view of John Doe's capabilities and achievements. By presenting detailed information about his skills and work, the site aims to highlight his expertise in both front-end and back-end development, as well as his ability to deliver high-quality software solutions.
+
+Visitors to the website can explore various sections, including an overview of John Doe's career journey, a portfolio of his notable projects, a summary of his technical proficiencies, and contact information for professional inquiries or networking opportunities.
+
+Whether you are a recruiter looking for a talented developer, a client in need of a technical solution, or a fellow developer interested in collaboration, this portfolio provides all the necessary information to understand John Doe's professional journey and what he can bring to your team or project.
 
 ---
 
@@ -51,4 +63,42 @@ To ensure the website meets the needs of its users, the following user stories w
 
 ---
 
+## Design
+
+The website is designed with a modern and clean aesthetic to ensure a user-friendly experience that aligns with John Doe's professional brand.
+
+### Color Scheme
+The color scheme is minimalist, focusing on three primary colors:
+
+- **Black:** Conveys professionalism and trust.
+- **White (#FFFFFF):** Provides a clean and open background.
+- **Gray:** Highlights important elements like buttons and links.
+
+### Typography
+
+I went for a google font Poppins because of it's simple and effective look, making it easy for the eye to read. Below is a screenshot of the font.
+Font sizes vary from 16px for regular text to 48px for headers to create a clear hierarchy.
+
+![alt text](assets/typography.png)<br>
+
+### Layout and Structure
+The website uses a responsive grid layout with CSS Flexbox, optimized for all devices:
+
+- **Header** with a sticky navigation menu.
+- **Main content area** for portfolio highlights and skills.
+- **Footer** with social links and contact information.
+
+### Wireframes
+Only a singular wireframe was created in https://app.diagrams.net/ 
+As the simplicity of the website only needed 1 layout. 
+
+![alt text](assets/wireframe.png)<br>
+
+### User Experience (UX) Considerations
+To enhance UX:
+- **Responsive Design:** Optimized for desktop, tablet, and mobile.
+- **Accessibility:** Ensures compliance with WCAG standards.
+- **Intuitive Navigation:** Simple, consistent, and easy to use.
+
+---
 
