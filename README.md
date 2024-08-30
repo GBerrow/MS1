@@ -258,3 +258,31 @@ In addition to Lighthouse, manual accessibility testing was performed using scre
 The website has been thoroughly tested and validated across multiple devices, browsers, and platforms to ensure it provides a consistent, accessible, and high-quality user experience. Any issues found during testing were resolved to ensure optimal performance and accessibility.
 
 ---
+## Credits
+
+This portfolio website was developed with the help of various tools, resources, and inspirations. Below is a list of the key contributions and attributions:
+
+### Code Used
+
+- **Custom HTML and CSS**: All HTML and CSS used in this project were written by me, but I used ChatGPT to help structure and fix any mistakes I have made 
+- **JavaScript for Interactivity**: Custom JavaScript was written by myself to handle interactive elements.
+
+### Content
+
+- **Professional Content**: All text, including descriptions of projects, professional experiences, and skills, was created by Myself. I have used a couple of extensions like Prettier formarter and Docker and to help strucutre my content. 
+- **Contact Information**: John Doe's contact information and professional details are included to provide a way for potential employers or collaborators to reach out.
+- **Website Layout** : My idea for the template of my website was inspired from (https://www.w3schools.com/w3css/w3css_templates.asp). They have endless templates for you to use and help get your project underway. 
+
+### Media
+
+- **Images**: All images used in the project are generated from ChatGPT image generator and (https://this-person-does-not-exist.com/en)
+
+### Acknowledgments
+
+- **Online Resources and Tutorials**: The development of this site was supported by tutorials and documentation available on platforms like [MDN Web Docs](https://developer.mozilla.org/) and [W3Schools](https://www.w3schools.com/).
+- **Feedback and Testing**: Special thanks to friends, family, and peers (On Slack) who provided feedback and helped test the website across different devices and browsers.
+- **Inspiration**: Various design inspirations were taken from popular portfolio websites and web design showcases to ensure the website meets modern standards and expectations.
+
+
+
+
