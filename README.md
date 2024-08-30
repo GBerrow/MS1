@@ -193,4 +193,68 @@ To fork the repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
 
+---
 
+## Testing
+
+Comprehensive testing was performed to ensure the website is fully functional, responsive, and accessible across different devices and browsers. The following tools and methods were used to validate and test the website:
+
+### Jigsaw CSS Validator
+
+[Jigsaw](https://jigsaw.w3.org/css-validator/validator) was used to validate the CSS code. The validation returned no errors or warnings, confirming that the CSS follows all standards and best practices.
+
+![CSS Validation Pass](assets/CSS-checker.png)
+*Screenshot showing successful CSS validation with no errors.*
+
+### W3C HTML Validator
+
+[W3C Validator](https://validator.w3.org/) was used to validate the HTML on all pages of the website. The HTML code passed without any errors, ensuring the markup is clean and follows HTML5 standards.
+
+![HTML Validation Pass](assets/HTML-checker.png)
+*Screenshot showing successful HTML validation with no errors.*
+
+### Lighthouse
+
+Chrome's Lighthouse developer tool was utilized to evaluate the website’s performance, accessibility, best practices, and SEO. The site scored high in all categories, demonstrating its optimization and adherence to web standards.
+
+![Lighthouse Performance](assets/Site-performance.png)
+*Screenshot of Lighthouse results showing high scores in Performance, Accessibility, Best Practices, and SEO.*
+
+**Performance Summary**:
+- **Performance**: Scored 90+ in performance metrics, indicating fast loading times and optimized resources.
+- **Accessibility**: Achieved a high accessibility score by adhering to WCAG standards, ensuring all users, including those with disabilities, can navigate the site effectively.
+- **Best Practices and SEO**: Scored 90+ in best practices and SEO, reflecting a well-structured site with proper meta tags and secure practices.
+
+### Full Device and Browser Testing
+
+Full testing was performed on the following devices to ensure the website is fully responsive and functional:
+
+* **Laptop**:
+  * Asus Laptop running Windows 10
+* **Mobile Devices**:
+  * iPhone SE running iOS 14
+  * Samsung Galaxy S8 running Android 9
+
+The site was tested using the following browsers:
+
+* **Google Chrome** - Version 92+
+* **Safari** - Version 14+
+* **Microsoft Edge** - Version 92+
+
+### Functional Testing
+
+Extensive functional testing was performed to ensure that all interactive elements work as expected:
+
+- **Navigation**: All navigation links were tested to ensure they direct to the correct sections or pages.
+- **Forms**: The contact form was tested for validation and successful submission. All required fields were checked to ensure they display appropriate error messages when not filled in correctly.
+- **Buttons**: All buttons were tested to ensure they trigger the correct actions.
+
+### Accessibility Testing
+
+In addition to Lighthouse, manual accessibility testing was performed using screen readers (NVDA) to ensure all content is accessible. Keyboard navigation was tested to ensure all interactive elements are accessible and operable without a mouse.
+
+### Conclusion
+
+The website has been thoroughly tested and validated across multiple devices, browsers, and platforms to ensure it provides a consistent, accessible, and high-quality user experience. Any issues found during testing were resolved to ensure optimal performance and accessibility.
+
+---
