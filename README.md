@@ -167,3 +167,30 @@ This portfolio website was built using a variety of technologies to ensure a mod
 
 ---
 
+## Deployment & Local Development
+
+This section provides details on how to deploy the portfolio website and how to set up the project for local development. It includes instructions for both deployment to a live server and running the website locally on your machine.
+
+### Deployment
+
+This website is deployed using **GitHub Pages**, which provides a simple and free hosting solution directly integrated with the GitHub repository. Follow these steps to deploy the website:
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, /GBerrow/MS1
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+1. Log into your account on github
+2. Go to the repository of this project /GBerrow/MS1
+3. Click on the code button, and copy your preferred clone link.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+
