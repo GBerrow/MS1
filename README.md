@@ -17,6 +17,7 @@ This website is a personal portfolio for John Doe, a Fullstack Developer. The si
 * [Features](#features)
     * [General Features on Each Page](#general-features-on-each-page)
     * [Accessibility](#accessibility)
+    * [Future Implementations](#future-implementations)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
 * [Deployment & Local Development](#deployment--local-development)
@@ -102,3 +103,46 @@ To enhance UX:
 
 ---
 
+## Features
+
+The portfolio website for John Doe includes several features designed to provide a seamless and engaging user experience. This section outlines the general features present on each page, the accessibility measures taken to ensure inclusivity, and potential future implementations to enhance the website further.
+
+### General Features on Each Page
+
+- **Responsive Design**: The website is fully responsive, ensuring optimal viewing and interaction experiences across a wide range of devices (desktops, tablets, and mobile phones). The layout adjusts automatically to the screen size, providing a consistent and user-friendly experience.
+
+- **Navigation Bar**: A sticky navigation bar is present on each page, allowing users to easily navigate to different sections of the website. The navigation bar includes links to Home, About, Projects, Skills, and Contact sections.
+
+- **Call-to-Action Buttons**: Prominent call-to-action buttons are strategically placed throughout the website to encourage user interaction, such as viewing the resume, exploring projects, or getting in touch via the contact form.
+
+- **Project Showcase**: A dedicated Projects section provides an interactive gallery of John Doe's work, complete with images, descriptions, and links to live demos and source code repositories.
+
+- **Contact Form**: The Contact section includes a user-friendly form that allows visitors to send messages directly to John Doe. The form includes validation to ensure the correct format of submitted information.
+
+- **Footer with Social Links**: A footer is present on every page, containing links to John Doe’s social media profiles and GitHub, making it easy for users to connect and follow his professional updates.
+
+### Accessibility
+
+Accessibility is a critical component of the website's design to ensure it is usable by as many people as possible, regardless of their abilities or disabilities. Key accessibility features include:
+
+- **Color Contrast**: The color scheme has been chosen to provide sufficient contrast between text and background, meeting WCAG (Web Content Accessibility Guidelines) standards. This ensures readability for users with visual impairments.
+
+### Future Implementations
+
+To continuously improve the user experience and functionality of the portfolio website, several future implementations are planned:
+
+- **Dark Mode**: Introduce a dark mode feature to enhance user comfort during nighttime browsing and cater to user preferences.
+
+- **Search Functionality**: Implement a search feature that allows users to quickly find specific content or projects within the website.
+
+- **Enhanced Project Filtering**: Add filtering options in the Projects section to allow users to sort and view projects by technology stack, date, or project type.
+
+- **Blog Section**: Develop a blog section where John Doe can share insights, tutorials, and updates related to web development, fostering engagement with the developer community.
+
+- **Multilingual Support**: Add multilingual support to cater to a broader audience and provide content in different languages.
+
+- **Accessibility Enhancements**: Continuously refine and improve accessibility features based on user feedback and emerging best practices.
+
+By incorporating these features and considering future enhancements, the website aims to provide a comprehensive and inclusive platform that effectively showcases John Doe's skills and achievements while offering a positive user experience for all visitors.
+
+---
