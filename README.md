@@ -20,6 +20,7 @@ This website is a personal portfolio for John Doe, a Fullstack Developer. The si
     * [Future Implementations](#future-implementations)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
+    * [Tools and Platforms](#Tools-and-Platforms)
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
@@ -146,3 +147,23 @@ To continuously improve the user experience and functionality of the portfolio w
 By incorporating these features and considering future enhancements, the website aims to provide a comprehensive and inclusive platform that effectively showcases John Doe's skills and achievements while offering a positive user experience for all visitors.
 
 ---
+
+## Technologies Used
+
+This portfolio website was built using a variety of technologies to ensure a modern, responsive, and interactive user experience.
+
+### Languages Used
+
+- **HTML5**: The structure of the website is built with HTML5, providing a semantic foundation for the content and layout.
+- **CSS3**: CSS3 is used for styling the website, ensuring a visually appealing and responsive design that adapts to various devices and screen sizes.
+- **JavaScript**: JavaScript is utilized to add interactive elements and enhance the user experience with dynamic content.
+
+### Tools and Platforms
+
+- **Git**: Version control is managed with Git, allowing for efficient tracking of changes and collaboration.
+- **GitHub**: The project is hosted on GitHub, providing a platform for version control and collaborative development.
+- **Gitpod**: The development environment used for coding, featuring extensions and tools that streamline the development process.
+- **Google Fonts**: Custom fonts from Google Fonts are used to improve the site's typography and overall aesthetic appeal.
+
+---
+
