@@ -1,16 +1,21 @@
+/* Media queries for responsive design */
+
+/* Styles for devices with a max-width of 1400px (Large screens) */
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
     }
 
+    /* Wrap about section containers to prevent overflow on smaller screens */
     .about-containers {
         flex-wrap: wrap;
     }
 }
 
-
+/* Styles for devices with a max-width of 1200px (Tablets) */
 @media screen and (max-width: 1200px) {
+    /* Hide desktop nav and display the hamburger menu for mobile navigation */
     #desktop-nav {
         display: none;
     }
@@ -19,6 +24,7 @@
         display: flex;
     }
 
+    /* Adjust experience section margin for smaller screens */
     #experience,
     .experience-detials-container {
         margin-top: 2rem;
@@ -29,10 +35,12 @@
         display: block;
     }
 
+     /* Hide the arrow icon (for navigation to next section) */
     .arrow {
         display: none;
     }
 
+    /* Adjust height and margin of sections for better fit on smaller screens */
     section,
     .section-container {
         height: fit-content;
@@ -42,12 +50,14 @@
         margin: 0 5%;
     }
 
+    /* Resize profile picture container for smaller screens */
     .section__pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
     }
 
+    /* Adjust margin on about section for better spacing */
     .about-containers {
         margin-top: 0;
     }
