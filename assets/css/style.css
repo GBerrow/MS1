@@ -210,10 +210,14 @@ section {
     gap: 1rem;
 }
 
+/* ICONS */
+
 .icon {
     cursor: pointer;
     height: 2rem;
 }
+
+/* BUTTONS */
 
 .btn-container {
     display: flex;
@@ -259,6 +263,8 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+/* ABOUT SECTION */
 
 #about {
     position: relative;
@@ -311,6 +317,8 @@ section {
     margin: auto 0;
 }
 
+/* EXPERIENCE SECTION */
+
 #experience {
     position: relative;
 }
@@ -348,6 +356,8 @@ article .icon {
     cursor: default;
 }
 
+/* PROJECTS SECTION */
+
 #projects {
     position: relative;
 }
@@ -372,6 +382,8 @@ article .icon {
     color: black;
     border-color: rgb(163, 163, 163);
 }
+
+/* CONTACT */
 
 #contact {
     display: flex;
@@ -410,6 +422,8 @@ article .icon {
 .email-icon {
     height: 2.5rem;
 }
+
+/* FOOTER SECTION */
 
 footer {
     height: 26vh;
