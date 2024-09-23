@@ -63,8 +63,10 @@
     }
 }
 
+/* Styles for devices with a max-width of 600px (Mobile) */
 @media screen and (max-width: 600px) {
 
+    /* Adjust contact section and footer height for mobile screens */
     #contact,
     footer {
         height: 40vh;
@@ -75,6 +77,7 @@
         margin-bottom: 0;
     }
 
+    /* Reduce font size for articles to fit better on small screens */
     article {
         font-size: 1rem;
     }
@@ -84,6 +87,7 @@
         margin-bottom: 2rem;
     }
 
+    /* Enable wrapping for containers to handle smaller screen width */
     .about-containers,
     .contact-info-upper-container,
     .btn-container {
@@ -94,25 +98,30 @@
         margin: 0;
     }
 
+    /* Reduce font size for text and navigation links */
     .contact-info-container p,
     .nav-links li a {
         font-size: 1rem;
     }
 
+    /* Adjust experience section title size for readability */
     .experience-sub-title {
         font-size: 1.25rem;
     }
 
+    /* Reduce logo size for smaller screens */
     .logo {
         font-size: 1.5rem;
     }
 
+    /* Stack navigation links vertically for mobile */
     .nav-links {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
     }
 
+    /* Adjust profile picture container size based on viewport width */
     .section__pic-container {
         width: auto;
         height: 46vw;
@@ -123,10 +132,12 @@
         font-size: 1.25rem;
     }
 
+    /* Reduce title font size for mobile screens */
     .title {
         font-size: 2rem;
     }
 
+    /* Set text alignment to justify for better readability on small screens */
     .text-container {
         text-align: justify;
     }
