@@ -136,7 +136,7 @@ The color scheme is minimalist, focusing on three primary colors:
 I went for a google font Poppins because of it's simple and effective look, making it easy for the eye to read. Below is a screenshot of the font.
 Font sizes vary from 16px for regular text to 48px for headers to create a clear hierarchy.
 
-![alt text](assets/typography.png)<br>
+![alt text](assets/images/typography.png)<br>
 
 ### Layout and Structure
 The website uses a responsive grid layout with CSS Flexbox, optimized for all devices:
@@ -149,7 +149,7 @@ The website uses a responsive grid layout with CSS Flexbox, optimized for all de
 Only a singular wireframe was created in https://app.diagrams.net/ 
 As the simplicity of the website only needed 1 layout. 
 
-![alt text](assets/wireframe.png)<br>
+![alt text](assets/images/wireframe.png)<br>
 
 ### User Experience (UX) Considerations
 To enhance UX:
@@ -259,21 +259,21 @@ In addition to using automated tools such as the W3C HTML Validator and Lighthou
 
 [Jigsaw](https://jigsaw.w3.org/css-validator/validator) The validation returned no errors or warnings, confirming that the CSS follows all standards and best practices. Ensuring CSS is error-free improves cross-browser compatibility and helps maintain a consistent design across all devices.
 
-![CSS Validation Pass](assets/CSS-checker.png)
+![CSS Validation Pass](assets/images/CSS-checker.png)
 *Screenshot showing successful CSS validation with no errors.*
 
 ### W3C HTML Validator
 
 [W3C Validator](https://validator.w3.org/) Was used to validate the HTML on all pages of the website. The HTML code passed without any errors, ensuring the markup is clean and follows HTML5 standards. Valid HTML is crucial for ensuring that the site renders correctly across different browsers and devices, improving accessibility and user experience.
 
-![HTML Validation Pass](assets/HTML-checker.png)
+![HTML Validation Pass](assets/images/HTML-checker.png)
 *Screenshot showing successful HTML validation with no errors.*
 
 ### Lighthouse
 
 Chrome's Lighthouse developer tool was utilized to evaluate the website’s performance, accessibility, best practices, and SEO. The site scored high in all categories, demonstrating its optimization and adherence to web standards. These high scores indicate that the website provides a fast, accessible, and well-optimized experience for all users.
 
-![Lighthouse Performance](assets/Site-performance.png)
+![Lighthouse Performance](assets/images/Site-performance.png)
 *Screenshot of Lighthouse results showing high scores in Performance, Accessibility, Best Practices, and SEO.*
 
 **Performance Summary**:
