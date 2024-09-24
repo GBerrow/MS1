@@ -355,6 +355,13 @@ Below is a screenshot of the broken link test results:
 
 *Screenshot showing successful broken links testing, with no errors found.*
 
+### Bug Fixes and Improvements
+
+During testing, the following issues were identified and addressed:
+
+- **Navigation Bar Overlap on Mobile**: The navigation bar overlapped with content on smaller screens. This issue was resolved by adjusting the `z-index` and adding padding.
+- **Form Validation on Mobile**: Error messages for the contact form were not displaying correctly on mobile devices. This was resolved by updating the validation script to ensure proper mobile behavior.
+
 ## Conclusion
 
 The website has undergone **extensive and thorough testing** across a wide range of devices, browsers, and network conditions to ensure it meets modern standards for performance, accessibility, and usability. From **automated testing** using tools like the **W3C HTML Validator** and **Lighthouse**, to **manual testing** across multiple devices and browsers, every aspect of the site’s functionality was scrutinized to ensure a seamless user experience.
