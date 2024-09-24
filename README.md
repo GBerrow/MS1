@@ -275,21 +275,21 @@ In addition to using automated tools such as the W3C HTML Validator and Lighthou
 
 [Jigsaw](https://jigsaw.w3.org/css-validator/validator) The validation returned no errors or warnings, confirming that the CSS follows all standards and best practices. Ensuring CSS is error-free improves cross-browser compatibility and helps maintain a consistent design across all devices.
 
-![CSS Validation Pass](assets/images/CSS-checker.png)
+![CSS Validation Pass](assets/images/testing/CSS-checker.png)
 _Screenshot showing successful CSS validation with no errors._
 
 ### W3C HTML Validator
 
 [W3C Validator](https://validator.w3.org/) Was used to validate the HTML on all pages of the website. The HTML code passed without any errors, ensuring the markup is clean and follows HTML5 standards. Valid HTML is crucial for ensuring that the site renders correctly across different browsers and devices, improving accessibility and user experience.
 
-![HTML Validation Pass](assets/images/HTML-checker.png)
+![HTML Validation Pass](assets/images/testing/HTML-checker.png)
 _Screenshot showing successful HTML validation with no errors._
 
 ### Lighthouse
 
 Chrome's Lighthouse developer tool was utilized to evaluate the website’s performance, accessibility, best practices, and SEO. The site scored high in all categories, demonstrating its optimization and adherence to web standards. These high scores indicate that the website provides a fast, accessible, and well-optimized experience for all users.
 
-![Lighthouse Performance](assets/images/Site-performance.png)
+![Lighthouse Performance](assets/images/testing/Site-performance.png)
 _Screenshot of Lighthouse results showing high scores in Performance, Accessibility, Best Practices, and SEO._
 
 **Performance Summary**:
@@ -323,10 +323,10 @@ Comprehensive testing was conducted to ensure that all website features function
 The website was tested on various mobile devices to ensure responsiveness and functionality:
 
 - **iPhone SE** (iOS 14)  
-  ![iPhone SE](assets/images/iphone-se.png)
+  ![iPhone SE](assets/images/testing/iphone-se.png)
 
 - **Samsung Galaxy S8** (Android 9)  
-  ![Samsung Galaxy S8](assets/images/samsung-galaxy-s8.png)
+  ![Samsung Galaxy S8](assets/images/testing/samsung-galaxy-s8.png)
 
 Both portrait and landscape modes were tested to ensure that the layout, images, and interactive elements adjusted correctly. All interactions, such as tapping buttons and submitting forms, worked as expected, with no visual or functional issues identified.
 
@@ -335,13 +335,13 @@ Both portrait and landscape modes were tested to ensure that the layout, images,
 The website was tested using the developer console in each major browser, as shown below:
 
 - **Google Chrome Console Output**
-  ![Chrome Console Output](assets/images/chrome-console.png)
+  ![Chrome Console Output](assets/images/testing/chrome-console.png)
 
 - **Mozilla Firefox Console Output**
-  ![Firefox Console Output](assets/images/firefox-console.png)
+  ![Firefox Console Output](assets/images/testing/firefox-console.png)
 
 - **Microsoft Edge Console Output**
-  ![Edge Console Output](assets/images/edge-console.png)
+  ![Edge Console Output](assets/images/testing/edge-console.png)
 
 All features, including navigation, media links, and form submissions, worked as expected across these browsers. No significant cross-browser issues were identified, ensuring a smooth and consistent experience for all users.
 
@@ -350,10 +350,10 @@ All features, including navigation, media links, and form submissions, worked as
 Additional tests were conducted to ensure that the website performed well under less-than-ideal conditions:
 
 - **Slow Network Conditions**: The website was tested under simulated Slow 4G speeds to evaluate how efficiently images and resources are loaded. The site performed well, with all critical elements remaining visible and a total load time of 2.8 seconds, which is considered optimal under these conditions.
-  ![Slow network output](assets/images/slow-network-test.png)
+  ![Slow network output](assets/images/testing/slow-network-test.png)
 
 - **Disabled JavaScript**: The website was tested with JavaScript disabled to verify that core functionality remained accessible. Minimal interactive elements were affected, the core content, navigation, and layout were still fully accessible, ensuring a functional experience for users without JavaScript enabled.
-  ![Disabled Javascript](assets/images/disabled-js-test.png)
+  ![Disabled Javascript](assets/images/testing/disabled-js-test.png)
 
   ### Broken Links Testing
 
@@ -368,7 +368,7 @@ Additional tests were conducted to ensure that the website performed well under 
 
 Below is a screenshot of the broken link test results:
 
-![Broken Links Test](assets/images/broken-link-test.png)
+![Broken Links Test](assets/images/testing/broken-link-test.png)
 
 _Screenshot showing successful broken links testing, with no errors found._
 
