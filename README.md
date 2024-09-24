@@ -314,7 +314,7 @@ The website was tested on various mobile devices to ensure responsiveness and fu
 
 Both portrait and landscape modes were tested to ensure that the layout, images, and interactive elements adjusted correctly. All interactions, such as tapping buttons and submitting forms, worked as expected, with no visual or functional issues identified.
 
-### Cross-Browser Console Output
+### Cross-Browser Console Output Testing
 
 The website was tested using the developer console in each major browser, as shown below:
 
@@ -328,6 +328,16 @@ The website was tested using the developer console in each major browser, as sho
   ![Edge Console Output](assets/images/edge-console.png)
   
 All features, including navigation, media links, and form submissions, worked as expected across these browsers. No significant cross-browser issues were identified, ensuring a smooth and consistent experience for all users.
+
+### Edge Case Testing
+
+Additional tests were conducted to ensure that the website performed well under less-than-ideal conditions:
+
+- **Slow Network Conditions**: The website was tested under simulated Slow 4G speeds to evaluate how efficiently images and resources are loaded. The site performed well, with all critical elements remaining visible and a total load time of 2.8 seconds, which is considered optimal under these conditions.
+  ![Slow network output](assets/images/slow-network-test.png)
+
+- **Disabled JavaScript**: The website was tested with JavaScript disabled to verify that core functionality remained accessible. Minimal interactive elements were affected, the core content, navigation, and layout were still fully accessible, ensuring a functional experience for users without JavaScript enabled.
+  ![Disabled Javascript](assets/images/disabled-js-test.png)
 
 ### Conclusion
 
