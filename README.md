@@ -306,10 +306,11 @@ Comprehensive testing was conducted to ensure that all website features function
 
 The website was tested on various mobile devices to ensure responsiveness and functionality:
 
-- **iPhone SE** (iOS 14)
-(assets/images/iphone-se.png)
-- **Samsung Galaxy S8** (Android 9)
-(assets/images/samsung-galaxy-s8.png)
+- **iPhone SE** (iOS 14)  
+  ![iPhone SE](assets/images/iphone-se.png)
+
+- **Samsung Galaxy S8** (Android 9)  
+  ![Samsung Galaxy S8](assets/images/samsung-galaxy-s8.png)
 
 Both portrait and landscape modes were tested to ensure that the layout, images, and interactive elements adjusted correctly. All interactions, such as tapping buttons and submitting forms, worked as expected, with no visual or functional issues identified.
 
