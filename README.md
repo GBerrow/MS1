@@ -338,6 +338,23 @@ Additional tests were conducted to ensure that the website performed well under 
 - **Disabled JavaScript**: The website was tested with JavaScript disabled to verify that core functionality remained accessible. Minimal interactive elements were affected, the core content, navigation, and layout were still fully accessible, ensuring a functional experience for users without JavaScript enabled.
   ![Disabled Javascript](assets/images/disabled-js-test.png)
 
+  ### Broken Links Testing
+
+  To ensure that all links on the website are functional and lead to the correct destinations, comprehensive testing for broken links was conducted.
+
+  - **Method**: 
+    - An automated tool was used to scan the site for broken or inactive links.
+    - Each link was also manually tested to ensure proper redirection.
+
+- **Outcome**: 
+    - All internal and external links were found to be working correctly, with no broken links identified.
+
+Below is a screenshot of the broken link test results:
+
+![Broken Links Test](assets/images/broken-link-test.png)
+
+*Screenshot showing successful broken links testing, with no errors found.*
+
 ### Conclusion
 
 The website has undergone extensive testing and validation across a variety of devices, browsers, and platforms to ensure a seamless, accessible, and high-quality user experience. All identified issues during testing were promptly addressed, resulting in a website optimized for performance, responsiveness, and accessibility. As a result, the site delivers a consistent experience for all users, regardless of their device or browser, and meets modern web standards for usability and accessibility.
