@@ -253,7 +253,7 @@ To fork the repository:
 ## Testing
 
 ## Manual testing
-In addition to automated tests, manual testing was performed to ensure that all interactions, including navigation, form submissions, button functionality, and media links, work as expected. This involved thoroughly checking user experience across various devices, screen sizes, and orientations to ensure the site provides consistent and intuitive functionality in real-world use cases.
+In addition to using automated tools such as the W3C HTML Validator and Lighthouse to check for code quality, performance, and accessibility, manual testing was performed to ensure that all interactions, including navigation, form submissions, button functionality, and media links, work as expected. This involved thoroughly checking user experience to confirm that the site provides consistent and intuitive functionality.
 
 ### Jigsaw CSS Validator
 
@@ -283,35 +283,28 @@ Chrome's Lighthouse developer tool was utilized to evaluate the website’s perf
 
 ### Full Device and Browser Testing
 
-Full testing was performed on the following devices to ensure the website is fully responsive and functional:
+Comprehensive testing was conducted to ensure that all website features function as expected, providing a seamless user experience across different sections of the site:
 
-* **Laptop**:
-  * Asus Laptop running Windows 10
-* **Mobile Devices**:
-  * iPhone SE running iOS 14
-  * Samsung Galaxy S8 running Android 9
-
-The site was tested using the following browsers:
-
-* **Google Chrome** - Version 92+
-* **Safari** - Version 14+
-* **Microsoft Edge** - Version 92+
-
-### Functional Testing
-
-Extensive functional testing was performed to ensure that all interactive elements work as expected:
-
-- **Navigation**: All navigation links were tested to ensure they direct to the correct sections or pages.
-- **Forms**: The contact form was tested for validation and successful submission. All required fields were checked to ensure they display appropriate error messages when not filled in correctly.
-- **Buttons**: All buttons were tested to ensure they trigger the correct actions.
-
-### Accessibility Testing
-
-In addition to Lighthouse, manual accessibility testing was performed using screen readers (NVDA) to ensure all content is accessible. Keyboard navigation was tested to ensure all interactive elements are accessible and operable without a mouse.
+| Feature             | Expected Outcome                                                                       | Testing Performed                         | Result                                      | Pass/Fail |
+|---------------------|----------------------------------------------------------------------------------------|-------------------------------------------|---------------------------------------------|-----------|
+| **Navbar**           |                                                                                        |                                           |                                             |           |
+| Logo and Title       | When clicked, the user is redirected to the home page.                                 | Clicked logo and title                    | Redirected to the home page.                | Pass      |
+| Home Link            | When clicked, the user is redirected to the home page.                                 | Clicked Home link                         | Redirected to the home page.                | Pass      |
+| Projects Link        | When clicked, the user is redirected to the Projects section.                          | Clicked Projects link                     | Redirected to the Projects section.         | Pass      |
+| Contact Link         | When clicked, the user is redirected to the Contact section.                           | Clicked Contact link                      | Redirected to the Contact section.          | Pass      |
+| **Footer**           |                                                                                        |                                           |                                             |           |
+| Social Media Icons   | When clicked, the user is redirected to the appropriate social media page in a new tab. | Clicked social media icons                | Redirected to the social media pages.       | Pass      |
+| **Home Page**        |                                                                                        |                                           |                                             |           |
+| Responsive Layout    | The layout adjusts correctly when resizing the browser window.                         | Resized the browser window                | Layout adjusted without breaking.           | Pass      |
+| **Contact Page**     |                                                                                        |                                           |                                             |           |
+| Contact Form         | The form validates input fields and prevents submission when required fields are empty.| Submitted form with empty fields          | Form displayed validation error messages.   | Pass      |
+| Submit Button        | The submit button successfully sends the form when all fields are filled.              | Filled in all fields and clicked Submit   | Form was submitted successfully.            | Pass      |
+| **Projects Section** |                                                                                        |                                           |                                             |           |
+| Project Demo Buttons | When clicked, the user is redirected to the live project demos.                        | Clicked project demo buttons              | Redirected to live project demos.           | Pass      |
 
 ### Conclusion
 
-The website has been thoroughly tested and validated across multiple devices, browsers, and platforms to ensure it provides a consistent, accessible, and high-quality user experience. Any issues found during testing were resolved to ensure optimal performance and accessibility.
+The website has undergone extensive testing and validation across a variety of devices, browsers, and platforms to ensure a seamless, accessible, and high-quality user experience. All identified issues during testing were promptly addressed, resulting in a website optimized for performance, responsiveness, and accessibility. As a result, the site delivers a consistent experience for all users, regardless of their device or browser, and meets modern web standards for usability and accessibility.
 
 ---
 ## Credits
