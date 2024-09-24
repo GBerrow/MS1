@@ -288,17 +288,17 @@ Comprehensive testing was conducted to ensure that all website features function
 | Feature             | Expected Outcome                                                                       | Testing Performed                         | Result                                      | Pass/Fail |
 |---------------------|----------------------------------------------------------------------------------------|-------------------------------------------|---------------------------------------------|-----------|
 | **Navbar**           |                                                                                        |                                           |                                             |           |
-| Logo and Title       | When clicked, the user is redirected to the home page.                                 | Clicked logo and title                    | Redirected to the home page.                | Pass      |
-| Home Link            | When clicked, the user is redirected to the home page.                                 | Clicked Home link                         | Redirected to the home page.                | Pass      |
+| About     | When clicked, the user is redirected to the About page.                                 | Clicked About                   | Redirected to the About page.                | Pass      |
+| Experience Link            | When clicked, the user is redirected to the experience page.                                 | Clicked experience link                         | Redirected to the experience page.                | Pass      |
 | Projects Link        | When clicked, the user is redirected to the Projects section.                          | Clicked Projects link                     | Redirected to the Projects section.         | Pass      |
 | Contact Link         | When clicked, the user is redirected to the Contact section.                           | Clicked Contact link                      | Redirected to the Contact section.          | Pass      |
 | **Footer**           |                                                                                        |                                           |                                             |           |
-| Social Media Icons   | When clicked, the user is redirected to the appropriate social media page in a new tab. | Clicked social media icons                | Redirected to the social media pages.       | Pass      |
-| **Home Page**        |                                                                                        |                                           |                                             |           |
+| Nav   | When clicked, the user is redirected to the appropriate section they clicked on. | Clicked about             | Redirected to the about section.       | Pass      |
+| **Whole Page**        |                                                                                        |                                           |                                             |           |
 | Responsive Layout    | The layout adjusts correctly when resizing the browser window.                         | Resized the browser window                | Layout adjusted without breaking.           | Pass      |
 | **Contact Page**     |                                                                                        |                                           |                                             |           |
-| Contact Form         | The form validates input fields and prevents submission when required fields are empty.| Submitted form with empty fields          | Form displayed validation error messages.   | Pass      |
-| Submit Button        | The submit button successfully sends the form when all fields are filled.              | Filled in all fields and clicked Submit   | Form was submitted successfully.            | Pass      |
+| Contact Container        | When clicked, the link in the contact container for gmail and Linkedin works correctly.| Clicked on both buttons       | Links open up in a new page.   | Pass      |
+
 | **Projects Section** |                                                                                        |                                           |                                             |           |
 | Project Demo Buttons | When clicked, the user is redirected to the live project demos.                        | Clicked project demo buttons              | Redirected to live project demos.           | Pass      |
 
