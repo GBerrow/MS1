@@ -8,31 +8,31 @@ This website is a personal portfolio for John Doe, a Fullstack Developer. The si
 
 ## Contents
 
-* [User Experience (UX)](#user-experience-ux)
-  * [Client Goals](#client-goals)
-  * [User Stories](#user-stories)
-* [Design](#design)
-    * [Colour Scheme](#colour-scheme)
-    * [Typography](#typography)
-    * [Wireframes](#wireframes)
-* [Features](#features)
-    * [General Features on Each Page](#general-features-on-each-page)
-    * [Accessibility](#accessibility)
-    * [Future Implementations](#future-implementations)
-* [Technologies Used](#technologies-used)
-    * [Languages Used](#languages-used)
-    * [Tools and Platforms](#Tools-and-Platforms)
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-* [Testing](#testing)
-* [Credits](#credits)
-    * [Code Used](#code-used)
-    * [Content](#content)
-    * [Media](#media)
-    * [Acknowledgments](#acknowledgments)
+- [User Experience (UX)](#user-experience-ux)
+  - [Client Goals](#client-goals)
+  - [User Stories](#user-stories)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Wireframes](#wireframes)
+- [Features](#features)
+  - [General Features on Each Page](#general-features-on-each-page)
+  - [Accessibility](#accessibility)
+  - [Future Implementations](#future-implementations)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Tools and Platforms](#Tools-and-Platforms)
+- [Deployment & Local Development](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+    - [How to Fork](#how-to-fork)
+    - [How to Clone](#how-to-clone)
+- [Testing](#testing)
+- [Credits](#credits)
+  - [Code Used](#code-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -57,16 +57,19 @@ The website was designed with the user in mind, prioritizing seamless navigation
 ### Key Considerations:
 
 - **Easy Navigation**:
+
   - A sticky navigation bar allows users to quickly jump between sections without needing to scroll back up to the top of the page. The navigation is simple, intuitive, and organized in a way that ensures users can easily access key sections like About, Experience, Projects, and Contact.
 
 - **Responsive Design**:
+
   - The site is fully responsive, ensuring that it adapts seamlessly to different screen sizes and devices, from desktops to smartphones. Using media queries, the layout adjusts to provide an optimal viewing experience on tablets and mobile devices, ensuring usability across platforms.
 
 - **Accessibility**:
+
   - Accessibility is a priority in the design. The site includes appropriate alt text for images, clearly structured headings, and sufficient contrast between text and background colors to improve readability. Additionally, all interactive elements, such as buttons and links, are designed to be accessible via keyboard navigation.
 
 - **User-Focused Interactions**:
-  - The site is designed to provide immediate feedback to user actions. Button hover states, link transitions, and interactive elements offer a polished, professional feel that enhances the user experience. 
+  - The site is designed to provide immediate feedback to user actions. Button hover states, link transitions, and interactive elements offer a polished, professional feel that enhances the user experience.
   - External links, such as those to social media and GitHub, are set to open in a new tab to keep the portfolio easily accessible for visitors.
 
 ### Overall Experience:
@@ -80,25 +83,32 @@ The goal is to provide a user-friendly, accessible, and responsive experience th
 The primary objective of this portfolio is to provide a detailed and professional overview of my skills, experience, and achievements. By addressing the following goals, the website ensures that it meets the needs of potential employers, clients, and collaborators:
 
 **Showcase Professional Experience**:
-   - Highlight my background in front-end development, education, and relevant work experience to demonstrate my expertise and competence in the field.
+
+- Highlight my background in front-end development, education, and relevant work experience to demonstrate my expertise and competence in the field.
 
 **Display Portfolio Projects**:
-   - Provide potential employers and clients with a comprehensive overview of my past projects, including links to live demos and GitHub repositories, to demonstrate my capabilities and technical proficiency.
+
+- Provide potential employers and clients with a comprehensive overview of my past projects, including links to live demos and GitHub repositories, to demonstrate my capabilities and technical proficiency.
 
 **Attract Job and Client Opportunities**:
-   - Present my skill set and achievements in a way that appeals to recruiters and potential clients, encouraging them to reach out for job opportunities or project collaborations.
+
+- Present my skill set and achievements in a way that appeals to recruiters and potential clients, encouraging them to reach out for job opportunities or project collaborations.
 
 **Facilitate Easy Contact**:
-   - Ensure that potential employers, clients, or collaborators can easily contact me through email, LinkedIn, or other social platforms, and provide clear call-to-actions and downloadable resume links.
+
+- Ensure that potential employers, clients, or collaborators can easily contact me through email, LinkedIn, or other social platforms, and provide clear call-to-actions and downloadable resume links.
 
 **Ensure a Seamless User Experience**:
-   - Build a responsive, user-friendly website that works smoothly across different devices, providing an accessible experience on desktops, tablets, and smartphones.
+
+- Build a responsive, user-friendly website that works smoothly across different devices, providing an accessible experience on desktops, tablets, and smartphones.
 
 **Highlight Technical Expertise**:
-   - Showcase my proficiency in key technologies, such as HTML, CSS, JavaScript, and frameworks, to demonstrate my coding skills and ability to build high-quality projects.
+
+- Showcase my proficiency in key technologies, such as HTML, CSS, JavaScript, and frameworks, to demonstrate my coding skills and ability to build high-quality projects.
 
 **Establish a Professional Online Presence**:
-   - Create a strong and positive online presence that positions me as a credible and capable professional, facilitating networking, employment opportunities, or potential collaborations.
+
+- Create a strong and positive online presence that positions me as a credible and capable professional, facilitating networking, employment opportunities, or potential collaborations.
 
 ---
 
@@ -125,6 +135,7 @@ The website was designed with several key users in mind, ensuring that their nee
 The website is designed with a modern and clean aesthetic to ensure a user-friendly experience that aligns with John Doe's professional brand.
 
 ### Color Scheme
+
 The color scheme is minimalist, focusing on three primary colors:
 
 - **Black:** Conveys professionalism and trust.
@@ -139,6 +150,7 @@ Font sizes vary from 16px for regular text to 48px for headers to create a clear
 ![alt text](assets/images/typography.png)<br>
 
 ### Layout and Structure
+
 The website uses a responsive grid layout with CSS Flexbox, optimized for all devices:
 
 - **Header** with a sticky navigation menu.
@@ -146,13 +158,16 @@ The website uses a responsive grid layout with CSS Flexbox, optimized for all de
 - **Footer** with social links and contact information.
 
 ### Wireframes
-Only a singular wireframe was created in https://app.diagrams.net/ 
-As the simplicity of the website only needed 1 layout. 
+
+Only a singular wireframe was created in https://app.diagrams.net/
+As the simplicity of the website only needed 1 layout.
 
 ![alt text](assets/images/wireframe.png)<br>
 
 ### User Experience (UX) Considerations
+
 To enhance UX:
+
 - **Responsive Design:** Optimized for desktop, tablet, and mobile.
 - **Accessibility:** Ensures compliance with WCAG standards.
 - **Intuitive Navigation:** Simple, consistent, and easy to use.
@@ -253,6 +268,7 @@ To fork the repository:
 ## Testing
 
 ## Manual testing
+
 In addition to using automated tools such as the W3C HTML Validator and Lighthouse to check for code quality, performance, and accessibility, manual testing was performed to ensure that all interactions, including navigation, form submissions, button functionality, and media links, work as expected. This involved thoroughly checking user experience to confirm that the site provides consistent and intuitive functionality.
 
 ### Jigsaw CSS Validator
@@ -260,23 +276,24 @@ In addition to using automated tools such as the W3C HTML Validator and Lighthou
 [Jigsaw](https://jigsaw.w3.org/css-validator/validator) The validation returned no errors or warnings, confirming that the CSS follows all standards and best practices. Ensuring CSS is error-free improves cross-browser compatibility and helps maintain a consistent design across all devices.
 
 ![CSS Validation Pass](assets/images/CSS-checker.png)
-*Screenshot showing successful CSS validation with no errors.*
+_Screenshot showing successful CSS validation with no errors._
 
 ### W3C HTML Validator
 
 [W3C Validator](https://validator.w3.org/) Was used to validate the HTML on all pages of the website. The HTML code passed without any errors, ensuring the markup is clean and follows HTML5 standards. Valid HTML is crucial for ensuring that the site renders correctly across different browsers and devices, improving accessibility and user experience.
 
 ![HTML Validation Pass](assets/images/HTML-checker.png)
-*Screenshot showing successful HTML validation with no errors.*
+_Screenshot showing successful HTML validation with no errors._
 
 ### Lighthouse
 
 Chrome's Lighthouse developer tool was utilized to evaluate the website’s performance, accessibility, best practices, and SEO. The site scored high in all categories, demonstrating its optimization and adherence to web standards. These high scores indicate that the website provides a fast, accessible, and well-optimized experience for all users.
 
 ![Lighthouse Performance](assets/images/Site-performance.png)
-*Screenshot of Lighthouse results showing high scores in Performance, Accessibility, Best Practices, and SEO.*
+_Screenshot of Lighthouse results showing high scores in Performance, Accessibility, Best Practices, and SEO._
 
 **Performance Summary**:
+
 - **Performance**: Scored 90+ in performance metrics, indicating fast loading times, optimized resources, and efficient handling of scripts and stylesheets. Techniques such as image compression and minimizing CSS/JavaScript were used to ensure fast loading times.
 - **Accessibility**: Achieved a high accessibility score by adhering to WCAG standards, such as providing sufficient color contrast, using semantic HTML tags, and including alt text for images. This ensures that all users, including those with disabilities, can navigate the site effectively.
 - **Best Practices and SEO**: Scored 90+ in best practices and SEO. These high scores reflect a secure, well-structured site with appropriate meta tags, mobile-friendly features, and proper use of HTTPS, ensuring that the website ranks well on search engines and is secure for visitors.
@@ -285,21 +302,21 @@ Chrome's Lighthouse developer tool was utilized to evaluate the website’s perf
 
 Comprehensive testing was conducted to ensure that all website features function as expected, providing a seamless user experience across different sections of the site:
 
-| Feature             | Expected Outcome                                                                       | Testing Performed                         | Result                                      | Pass/Fail |
-|---------------------|----------------------------------------------------------------------------------------|-------------------------------------------|---------------------------------------------|-----------|
-| **Navbar**           |                                                                                        |                                           |                                             |           |
-| About Link           | When clicked, the user is redirected to the About page.                                 | Clicked About Link                        | Redirected to the About page.               | Pass      |
-| Experience Link      | When clicked, the user is redirected to the Experience page.                            | Clicked Experience Link                   | Redirected to the Experience page.          | Pass      |
-| Projects Link        | When clicked, the user is redirected to the Projects section.                           | Clicked Projects Link                     | Redirected to the Projects section.         | Pass      |
-| Contact Link         | When clicked, the user is redirected to the Contact section.                            | Clicked Contact Link                      | Redirected to the Contact section.          | Pass      |
-| **Footer**           |                                                                                        |                                           |                                             |           |
-| Nav                  | When clicked, the user is redirected to the appropriate section they clicked on.        | Clicked About                             | Redirected to the About section.            | Pass      |
-| **Whole Page**       |                                                                                        |                                           |                                             |           |
-| Responsive Layout    | The layout adjusts correctly when resizing the browser window.                          | Resized the browser window                | Layout adjusted without breaking.           | Pass      |
-| **Contact Page**     |                                                                                        |                                           |                                             |           |
-| Contact Container    | When clicked, the link in the contact container for Gmail and LinkedIn works correctly. | Clicked on both buttons                   | Links open up in a new page.                | Pass      |
-| **Projects Section** |                                                                                        |                                           |                                             |           |
-| Project Demo Buttons | When clicked, the user is redirected to the live project demos.                         | Clicked Project Demo Buttons              | Redirected to live project demos.           | Pass      |
+| Feature              | Expected Outcome                                                                        | Testing Performed            | Result                              | Pass/Fail |
+| -------------------- | --------------------------------------------------------------------------------------- | ---------------------------- | ----------------------------------- | --------- |
+| **Navbar**           |                                                                                         |                              |                                     |           |
+| About Link           | When clicked, the user is redirected to the About page.                                 | Clicked About Link           | Redirected to the About page.       | Pass      |
+| Experience Link      | When clicked, the user is redirected to the Experience page.                            | Clicked Experience Link      | Redirected to the Experience page.  | Pass      |
+| Projects Link        | When clicked, the user is redirected to the Projects section.                           | Clicked Projects Link        | Redirected to the Projects section. | Pass      |
+| Contact Link         | When clicked, the user is redirected to the Contact section.                            | Clicked Contact Link         | Redirected to the Contact section.  | Pass      |
+| **Footer**           |                                                                                         |                              |                                     |           |
+| Nav                  | When clicked, the user is redirected to the appropriate section they clicked on.        | Clicked About                | Redirected to the About section.    | Pass      |
+| **Whole Page**       |                                                                                         |                              |                                     |           |
+| Responsive Layout    | The layout adjusts correctly when resizing the browser window.                          | Resized the browser window   | Layout adjusted without breaking.   | Pass      |
+| **Contact Page**     |                                                                                         |                              |                                     |           |
+| Contact Container    | When clicked, the link in the contact container for Gmail and LinkedIn works correctly. | Clicked on both buttons      | Links open up in a new page.        | Pass      |
+| **Projects Section** |                                                                                         |                              |                                     |           |
+| Project Demo Buttons | When clicked, the user is redirected to the live project demos.                         | Clicked Project Demo Buttons | Redirected to live project demos.   | Pass      |
 
 ### Mobile Responsiveness Testing
 
@@ -325,7 +342,7 @@ The website was tested using the developer console in each major browser, as sho
 
 - **Microsoft Edge Console Output**
   ![Edge Console Output](assets/images/edge-console.png)
-  
+
 All features, including navigation, media links, and form submissions, worked as expected across these browsers. No significant cross-browser issues were identified, ensuring a smooth and consistent experience for all users.
 
 ### Edge Case Testing
@@ -342,18 +359,18 @@ Additional tests were conducted to ensure that the website performed well under 
 
   To ensure that all links on the website are functional and lead to the correct destinations, comprehensive testing for broken links was conducted.
 
-  - **Method**: 
+  - **Method**:
     - An automated tool was used to scan the site for broken or inactive links.
     - Each link was also manually tested to ensure proper redirection.
 
-- **Outcome**: 
-    - All internal and external links were found to be working correctly, with no broken links identified.
+- **Outcome**:
+  - All internal and external links were found to be working correctly, with no broken links identified.
 
 Below is a screenshot of the broken link test results:
 
 ![Broken Links Test](assets/images/broken-link-test.png)
 
-*Screenshot showing successful broken links testing, with no errors found.*
+_Screenshot showing successful broken links testing, with no errors found._
 
 ### Bug Fixes and Improvements
 
@@ -382,20 +399,21 @@ Continuous monitoring and periodic testing will be conducted to ensure that the 
 In summary, the website is optimized for a wide audience, offering a fast, accessible, and consistent experience across all devices and platforms. All identified issues during testing were promptly addressed, ensuring that users, regardless of their device or network condition, will have a high-quality experience.
 
 ---
+
 ## Credits
 
 This portfolio website was developed with the help of various tools, resources, and inspirations. Below is a list of the key contributions and attributions:
 
 ### Code Used
 
-- **Custom HTML and CSS**: All HTML and CSS used in this project were written by me, but I used ChatGPT to help structure and fix any mistakes I have made 
+- **Custom HTML and CSS**: All HTML and CSS used in this project were written by me, but I used ChatGPT to help structure and fix any mistakes I have made
 - **JavaScript for Interactivity**: Custom JavaScript was written by myself to handle interactive elements.
 
 ### Content
 
-- **Professional Content**: All text, including descriptions of projects, professional experiences, and skills, was created by Myself. I have used a couple of extensions like Prettier formarter and Docker and to help strucutre my content. 
+- **Professional Content**: All text, including descriptions of projects, professional experiences, and skills, was created by Myself. I have used a couple of extensions like Prettier formarter and Docker and to help strucutre my content.
 - **Contact Information**: John Doe's contact information and professional details are included to provide a way for potential employers or collaborators to reach out.
-- **Website Layout** : My idea for the template of my website was inspired from (https://www.w3schools.com/w3css/w3css_templates.asp). They have endless templates for you to use and help get your project underway. 
+- **Website Layout** : My idea for the template of my website was inspired from (https://www.w3schools.com/w3css/w3css_templates.asp). They have endless templates for you to use and help get your project underway.
 
 ### Media
 
@@ -406,7 +424,3 @@ This portfolio website was developed with the help of various tools, resources, 
 - **Online Resources and Tutorials**: The development of this site was supported by tutorials and documentation available on platforms like [MDN Web Docs](https://developer.mozilla.org/) and [W3Schools](https://www.w3schools.com/).
 - **Feedback and Testing**: Special thanks to friends, family, and peers (On Slack) who provided feedback and helped test the website across different devices and browsers.
 - **Inspiration**: Various design inspirations were taken from popular portfolio websites and web design showcases to ensure the website meets modern standards and expectations.
-
-
-
-
