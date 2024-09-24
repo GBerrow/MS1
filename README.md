@@ -252,33 +252,34 @@ To fork the repository:
 
 ## Testing
 
-Comprehensive testing was performed to ensure the website is fully functional, responsive, and accessible across different devices and browsers. The following tools and methods were used to validate and test the website:
+## Manual testing
+In addition to automated tests, manual testing was performed to ensure that all interactions, including navigation, form submissions, button functionality, and media links, work as expected. This involved thoroughly checking user experience across various devices, screen sizes, and orientations to ensure the site provides consistent and intuitive functionality in real-world use cases.
 
 ### Jigsaw CSS Validator
 
-[Jigsaw](https://jigsaw.w3.org/css-validator/validator) was used to validate the CSS code. The validation returned no errors or warnings, confirming that the CSS follows all standards and best practices.
+[Jigsaw](https://jigsaw.w3.org/css-validator/validator) The validation returned no errors or warnings, confirming that the CSS follows all standards and best practices. Ensuring CSS is error-free improves cross-browser compatibility and helps maintain a consistent design across all devices.
 
 ![CSS Validation Pass](assets/CSS-checker.png)
 *Screenshot showing successful CSS validation with no errors.*
 
 ### W3C HTML Validator
 
-[W3C Validator](https://validator.w3.org/) was used to validate the HTML on all pages of the website. The HTML code passed without any errors, ensuring the markup is clean and follows HTML5 standards.
+[W3C Validator](https://validator.w3.org/) Was used to validate the HTML on all pages of the website. The HTML code passed without any errors, ensuring the markup is clean and follows HTML5 standards. Valid HTML is crucial for ensuring that the site renders correctly across different browsers and devices, improving accessibility and user experience.
 
 ![HTML Validation Pass](assets/HTML-checker.png)
 *Screenshot showing successful HTML validation with no errors.*
 
 ### Lighthouse
 
-Chrome's Lighthouse developer tool was utilized to evaluate the website’s performance, accessibility, best practices, and SEO. The site scored high in all categories, demonstrating its optimization and adherence to web standards.
+Chrome's Lighthouse developer tool was utilized to evaluate the website’s performance, accessibility, best practices, and SEO. The site scored high in all categories, demonstrating its optimization and adherence to web standards. These high scores indicate that the website provides a fast, accessible, and well-optimized experience for all users.
 
 ![Lighthouse Performance](assets/Site-performance.png)
 *Screenshot of Lighthouse results showing high scores in Performance, Accessibility, Best Practices, and SEO.*
 
 **Performance Summary**:
-- **Performance**: Scored 90+ in performance metrics, indicating fast loading times and optimized resources.
-- **Accessibility**: Achieved a high accessibility score by adhering to WCAG standards, ensuring all users, including those with disabilities, can navigate the site effectively.
-- **Best Practices and SEO**: Scored 90+ in best practices and SEO, reflecting a well-structured site with proper meta tags and secure practices.
+- **Performance**: Scored 90+ in performance metrics, indicating fast loading times, optimized resources, and efficient handling of scripts and stylesheets. Techniques such as image compression and minimizing CSS/JavaScript were used to ensure fast loading times.
+- **Accessibility**: Achieved a high accessibility score by adhering to WCAG standards, such as providing sufficient color contrast, using semantic HTML tags, and including alt text for images. This ensures that all users, including those with disabilities, can navigate the site effectively.
+- **Best Practices and SEO**: Scored 90+ in best practices and SEO. These high scores reflect a secure, well-structured site with appropriate meta tags, mobile-friendly features, and proper use of HTTPS, ensuring that the website ranks well on search engines and is secure for visitors.
 
 ### Full Device and Browser Testing
 
