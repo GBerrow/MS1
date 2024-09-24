@@ -302,6 +302,18 @@ Comprehensive testing was conducted to ensure that all website features function
 | **Projects Section** |                                                                                        |                                           |                                             |           |
 | Project Demo Buttons | When clicked, the user is redirected to the live project demos.                        | Clicked project demo buttons              | Redirected to live project demos.           | Pass      |
 
+### Mobile Responsiveness Testing
+
+The website was tested on various mobile devices to ensure responsiveness and functionality:
+
+- **iPhone SE** (iOS 14)
+(assets/images/iphone-se.png)
+- **Samsung Galaxy S8** (Android 9)
+(assets/images/samsung-galaxy-s8.png)
+
+Both portrait and landscape modes were tested to ensure that the layout, images, and interactive elements adjusted correctly. All interactions, such as tapping buttons and submitting forms, worked as expected, with no visual or functional issues identified.
+
+
 ### Conclusion
 
 The website has undergone extensive testing and validation across a variety of devices, browsers, and platforms to ensure a seamless, accessible, and high-quality user experience. All identified issues during testing were promptly addressed, resulting in a website optimized for performance, responsiveness, and accessibility. As a result, the site delivers a consistent experience for all users, regardless of their device or browser, and meets modern web standards for usability and accessibility.
