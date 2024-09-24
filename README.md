@@ -288,19 +288,18 @@ Comprehensive testing was conducted to ensure that all website features function
 | Feature             | Expected Outcome                                                                       | Testing Performed                         | Result                                      | Pass/Fail |
 |---------------------|----------------------------------------------------------------------------------------|-------------------------------------------|---------------------------------------------|-----------|
 | **Navbar**           |                                                                                        |                                           |                                             |           |
-| About Link     | When clicked, the user is redirected to the About page.                                 | Clicked About Link                   | Redirected to the About page.                | Pass      |
-| Experience Link            | When clicked, the user is redirected to the experience page.                                 | Clicked experience link                         | Redirected to the experience page.                | Pass      |
-| Projects Link        | When clicked, the user is redirected to the Projects section.                          | Clicked Projects link                     | Redirected to the Projects section.         | Pass      |
-| Contact Link         | When clicked, the user is redirected to the Contact section.                           | Clicked Contact link                      | Redirected to the Contact section.          | Pass      |
+| About Link           | When clicked, the user is redirected to the About page.                                 | Clicked About Link                        | Redirected to the About page.               | Pass      |
+| Experience Link      | When clicked, the user is redirected to the Experience page.                            | Clicked Experience Link                   | Redirected to the Experience page.          | Pass      |
+| Projects Link        | When clicked, the user is redirected to the Projects section.                           | Clicked Projects Link                     | Redirected to the Projects section.         | Pass      |
+| Contact Link         | When clicked, the user is redirected to the Contact section.                            | Clicked Contact Link                      | Redirected to the Contact section.          | Pass      |
 | **Footer**           |                                                                                        |                                           |                                             |           |
-| Nav   | When clicked, the user is redirected to the appropriate section they clicked on. | Clicked about             | Redirected to the about section.       | Pass      |
-| **Whole Page**        |                                                                                        |                                           |                                             |           |
-| Responsive Layout    | The layout adjusts correctly when resizing the browser window.                         | Resized the browser window                | Layout adjusted without breaking.           | Pass      |
+| Nav                  | When clicked, the user is redirected to the appropriate section they clicked on.        | Clicked About                             | Redirected to the About section.            | Pass      |
+| **Whole Page**       |                                                                                        |                                           |                                             |           |
+| Responsive Layout    | The layout adjusts correctly when resizing the browser window.                          | Resized the browser window                | Layout adjusted without breaking.           | Pass      |
 | **Contact Page**     |                                                                                        |                                           |                                             |           |
-| Contact Container        | When clicked, the link in the contact container for gmail and Linkedin works correctly.| Clicked on both buttons       | Links open up in a new page.   | Pass      |
-
+| Contact Container    | When clicked, the link in the contact container for Gmail and LinkedIn works correctly. | Clicked on both buttons                   | Links open up in a new page.                | Pass      |
 | **Projects Section** |                                                                                        |                                           |                                             |           |
-| Project Demo Buttons | When clicked, the user is redirected to the live project demos.                        | Clicked project demo buttons              | Redirected to live project demos.           | Pass      |
+| Project Demo Buttons | When clicked, the user is redirected to the live project demos.                         | Clicked Project Demo Buttons              | Redirected to live project demos.           | Pass      |
 
 ### Mobile Responsiveness Testing
 
