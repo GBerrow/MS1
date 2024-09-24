@@ -9,6 +9,7 @@ This website is a personal portfolio for John Doe, a Fullstack Developer. The si
 ## Contents
 
 * [User Experience](#user-experience-ux)
+  * [Client Goals](#client-goals)
   * [User Stories](#user-stories)
 * [Design](#design)
     * [Colour Scheme](#colour-scheme)
@@ -44,6 +45,37 @@ The primary purpose of this website is to provide potential employers, clients, 
 Visitors to the website can explore various sections, including an overview of John Doe's career journey, a portfolio of his notable projects, a summary of his technical proficiencies, and contact information for professional inquiries or networking opportunities.
 
 Whether you are a recruiter looking for a talented developer, a client in need of a technical solution, or a fellow developer interested in collaboration, this portfolio provides all the necessary information to understand John Doe's professional journey and what he can bring to your team or project.
+
+---
+
+## User Experience
+
+---
+
+## Client Goals
+
+The primary goal of this website is to serve as an online portfolio that effectively showcases my skills, experience, and projects. The site aims to achieve the following objectives:
+
+**Showcase Professional Experience**:
+   - Highlight my background in front-end development, education, and relevant work experience to demonstrate my expertise and competence in the field.
+
+**Display Portfolio Projects**:
+   - Provide potential employers and clients with a comprehensive overview of my past projects, including links to live demos and GitHub repositories, to demonstrate my capabilities and technical proficiency.
+
+**Attract Job and Client Opportunities**:
+   - Present my skill set and achievements in a way that appeals to recruiters and potential clients, encouraging them to reach out for job opportunities or project collaborations.
+
+**Facilitate Easy Contact**:
+   - Ensure that potential employers, clients, or collaborators can easily contact me through email, LinkedIn, or other social platforms, and provide clear call-to-actions and downloadable resume links.
+
+**Ensure a Seamless User Experience**:
+   - Build a responsive, user-friendly website that works smoothly across different devices, providing an accessible experience on desktops, tablets, and smartphones.
+
+**Highlight Technical Expertise**:
+   - Showcase my proficiency in key technologies, such as HTML, CSS, JavaScript, and frameworks, to demonstrate my coding skills and ability to build high-quality projects.
+
+**Establish a Professional Online Presence**:
+   - Create a strong and positive online presence that positions me as a credible and capable professional, facilitating networking, employment opportunities, or potential collaborations.
 
 ---
 
