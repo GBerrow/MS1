@@ -314,6 +314,20 @@ The website was tested on various mobile devices to ensure responsiveness and fu
 
 Both portrait and landscape modes were tested to ensure that the layout, images, and interactive elements adjusted correctly. All interactions, such as tapping buttons and submitting forms, worked as expected, with no visual or functional issues identified.
 
+### Cross-Browser Console Output
+
+The website was tested using the developer console in each major browser, as shown below:
+
+- **Google Chrome Console Output**
+  ![Chrome Console Output](assets/images/chrome-console.png)
+
+- **Mozilla Firefox Console Output**
+  ![Firefox Console Output](assets/images/firefox-console.png)
+
+- **Microsoft Edge Console Output**
+  ![Edge Console Output](assets/images/edge-console.png)
+  
+All features, including navigation, media links, and form submissions, worked as expected across these browsers. No significant cross-browser issues were identified, ensuring a smooth and consistent experience for all users.
 
 ### Conclusion
 
