@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
 
     <!-- Link to external CSS files -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/mediaqueries.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mediaqueries.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -21,13 +21,15 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><img 
-            id="modeToggle"
-            class="icon color-icon"
-            src="assets/images/theme_light.png" 
-            src-light="assets/images/theme_light.png"
-            src-light="assets/images/theme_dark.png"
-            alt="Color theme icon">
+          <li>
+            <img
+              id="modeToggle"
+              class="icon color-icon"
+              src="assets/images/theme_light.png"
+              src-light="assets/images/theme_light.png"
+              src-light="assets/images/theme_dark.png"
+              alt="Color theme icon"
+            />
           </li>
         </ul>
       </div>
@@ -47,22 +49,27 @@
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          <li><img 
-            id="modeToggle"
-            class="icon color-icon"
-            src="assets/images/theme_light.png" 
-            src-light="assets/images/theme_light.png"
-            src-light="assets/images/theme_dark.png"
-            alt="Color theme icon">
+          <li>
+            <img
+              id="modeToggle"
+              class="icon color-icon"
+              src="assets/images/theme_light.png"
+              src-light="assets/images/theme_light.png"
+              src-light="assets/images/theme_dark.png"
+              alt="Color theme icon"
+            />
           </li>
         </ul>
       </div>
     </nav>
-     <!-- Profile Section -->
+    <!-- Profile Section -->
     <section id="profile">
       <div class="section__pic-container">
         <!-- Profile picture -->
-        <img src="assets/images/profile-pic.png" alt="John Doe profile picture">
+        <img
+          src="assets/images/profile-pic.png"
+          alt="John Doe profile picture"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -70,27 +77,36 @@
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
           <!-- Button to download CV -->
-          <button class="btn btn-color-2" onclick="window.open('assets/images/resume-example.pdf')">Download CV</button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact info</button>
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('assets/images/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact info
+          </button>
         </div>
         <!-- Social Media Links -->
         <div id="socials-container">
-          <img 
-          src="assets/images/linkedin_light.png" 
-          src-light="assets/images/linkedin_light.png" 
-          src-dark="assets/images/linkedin_dark.png" 
-          alt="My LinkedIn profile" class="icon" 
-          class="icon linkedin-icon"
-          onclick="window.open('https://linkedin.com/', '_blank')"
-          >
-          <img 
-          src="assets/images/github_light.png" 
-          src-light="assets/images/github_light.png" 
-          src-dark="assets/images/github_dark.png" 
-          alt="My github profile" class="icon" 
-          class="icon github-icon"
-          onclick="window.open('https://github.com/', '_blank')"
-          >
+          <img
+            src="assets/images/linkedin_light.png"
+            src-light="assets/images/linkedin_light.png"
+            src-dark="assets/images/linkedin_dark.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            class="icon linkedin-icon"
+            onclick="window.open('https://linkedin.com/', '_blank')"
+          />
+          <img
+            src="assets/images/github_light.png"
+            src-light="assets/images/github_light.png"
+            src-dark="assets/images/github_dark.png"
+            alt="My github profile"
+            class="icon"
+            class="icon github-icon"
+            onclick="window.open('https://github.com/', '_blank')"
+          />
         </div>
       </div>
     </section>
@@ -101,121 +117,152 @@
       <div class="section-container">
         <!-- About Me Picture -->
         <div class="section__pic-container">
-          <img src="assets/images/about-pic.png" alt="Profile picture" class="about-pic">
+          <img
+            src="assets/images/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <!-- Experience Details -->
             <div class="details-container">
-              <img 
-              src="assets/images/experience_light.png" 
-              src-light="assets/images/experience_light.png"
-              src-dark="assets/images/experience_dark.png"
-              alt="Experience icon" 
-              class="icon"
-              >
+              <img
+                src="assets/images/experience_light.png"
+                src-light="assets/images/experience_light.png"
+                src-dark="assets/images/experience_dark.png"
+                alt="Experience icon"
+                class="icon"
+              />
               <h3>Experience</h3>
-              <p>2+ Years <br> Frontend Development</p>
+              <p>
+                2+ Years <br />
+                Frontend Development
+              </p>
             </div>
             <!-- Education Details -->
             <div class="details-container">
-              <img 
-              src="assets/images/education_light.png" 
-              src-light="assets/images/education.png"
-              src-dark="assets/images/education_dark.png"
-              alt="Education icon" 
-              class="icon">
+              <img
+                src="assets/images/education_light.png"
+                src-light="assets/images/education.png"
+                src-dark="assets/images/education_dark.png"
+                alt="Education icon"
+                class="icon"
+              />
               <h3>Education</h3>
-              <p>B.Sc Bachelors Degree <br> M.Sc Masters Degree</p>
+              <p>
+                B.Sc Bachelors Degree <br />
+                M.Sc Masters Degree
+              </p>
             </div>
           </div>
           <!-- Personal Description -->
           <div class="text-container">
-            <p>Hello! I'm John Doe, a passionate Frontend Developer with over 2 years of experience crafting user-friendly web interfaces.
-              I hold a Bachelor's degree in Computer Science and a Master's degree in Software Engineering.
-              My expertise lies in building responsive, dynamic websites and applications that enhance user experiences.
-              I am always eager to learn new technologies and enjoy working on challenging projects that push my limits and improve my skills. Let's build something great together!
+            <p>
+              Hello! I'm John Doe, a passionate Frontend Developer with over 2
+              years of experience crafting user-friendly web interfaces. I hold
+              a Bachelor's degree in Computer Science and a Master's degree in
+              Software Engineering. My expertise lies in building responsive,
+              dynamic websites and applications that enhance user experiences. I
+              am always eager to learn new technologies and enjoy working on
+              challenging projects that push my limits and improve my skills.
+              Let's build something great together!
             </p>
           </div>
         </div>
       </div>
-      <img 
-       src="assets/images/arrow_light.png" 
-       src-light="assets/images/arrow_light.png" 
-       src-dark="assets/images/arrow_dark.png" 
-       alt="Arrow icon" class="icon arrow" 
-       onclick="location.href='./#experience'"
-      >
+      <img
+        src="assets/images/arrow_light.png"
+        src-light="assets/images/arrow_light.png"
+        src-dark="assets/images/arrow_dark.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
     </section>
     <!-- Experience Section -->
     <section id="experience">
-      <p class="section__text__p1"> Explore My</p>
+      <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
+            <!-- Frontend Experience Details -->
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
               <article>
-                <img 
-                 src="assets/images/checkmark_light.png"
-                 src-light="assets/images/checkmark_light.png"
-                 src-dark="assets/images/checkmark_dark.png"
-                 alt="Experience Icon" 
-                 class="icon"
-                 >
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>HTML</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <img 
-                src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png" 
-                alt="Experience Icon" 
-                class="icon"
-                >
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>CSS</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <img 
-                src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  
-                alt="Experience Icon" 
-                class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>SASS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  alt="Experience Icon" class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>JavaScript</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  alt="Experience Icon" class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>TypeScript</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  alt="Experience Icon" class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>Material UI</h3>
                   <p>Intermediate</p>
@@ -228,54 +275,78 @@
             <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
               <article>
-                <img src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  alt="Experience Icon" class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>PostGreSQL</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  alt="Experience Icon" class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>Node JS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  alt="Experience Icon" class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>Express JS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  alt="Experience Icon" class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>Git</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  alt="Experience Icon" class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>Python</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <img src="assets/images/checkmark_light.png"
-                src-light="assets/images/checkmark_light.png"
-                src-dark="assets/images/checkmark_dark.png"  alt="Experience Icon" class="icon">
+                <img
+                  src="assets/images/checkmark_light.png"
+                  src-light="assets/images/checkmark_light.png"
+                  src-dark="assets/images/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>C#</h3>
                   <p>Intermediate</p>
@@ -285,13 +356,14 @@
           </div>
         </div>
       </div>
-      <img 
-       src="assets/images/arrow_light.png" 
-       src-light="assets/images/arrow_light.png" 
-       src-dark="assets/images/arrow_dark.png"
-       alt="Arrow icon" class="icon arrow" 
-       onclick="location.href='./#projects'"
-      >
+      <img
+        src="assets/images/arrow_light.png"
+        src-light="assets/images/arrow_light.png"
+        src-dark="assets/images/arrow_dark.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
     </section>
     <!-- Projects Section -->
     <section id="projects">
@@ -301,43 +373,87 @@
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="assets/images/project-1.png" alt="Project 1" class="project-img">
+              <img
+                src="assets/images/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
             </div>
             <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/', '_blank')">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/', '_blank')">Live Demo</button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank')"
+              >
+                Live Demo
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="assets/images/project-2.png" alt="Project 2" class="project-img">
+              <img
+                src="assets/images/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
             </div>
             <h2 class="experience-sub-title project-title">Project Two</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/', '_blank')">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/', '_blank')">Live Demo</button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank')"
+              >
+                Live Demo
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="assets/images/project-3.png" alt="Project 3" class="project-img">
+              <img
+                src="assets/images/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
             </div>
             <h2 class="experience-sub-title project-title">Project Three</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/', '_blank')">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/', '_blank')">Live Demo</button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank')"
+              >
+                Live Demo
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <img 
-      src="assets/images/arrow_light.png" 
-      src-light="assets/images/arrow_light.png" 
-      src-dark="assets/images/arrow_dark.png"
-      alt="Arrow icon" class="icon arrow" 
-      onclick="location.href='./#contact'">
-    </section>    
+      <img
+        src="assets/images/arrow_light.png"
+        src-light="assets/images/arrow_light.png"
+        src-dark="assets/images/arrow_dark.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
     <!-- Contact Section -->
     <section id="contact">
       <p class="section__text__p1">Get In Touch</p>
@@ -345,24 +461,25 @@
       <div class="contact-info-upper-container">
         <!-- Contact Information -->
         <div class="contact-info-container">
-          <img 
-          src="assets/images/email_light.png" 
-          src-light="assets/images/email_light.png" 
-          src-dark="assets/images/email_dark.png" 
-          alt="Email icon" 
-          class="icon contact-icon email-icon"
-          >
+          <img
+            src="assets/images/email_light.png"
+            src-light="assets/images/email_light.png"
+            src-dark="assets/images/email_dark.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
           <p><a href="mailto:JohnDoe@gmail.com">JohnDoe@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img 
-          src="assets/images/linkedin_light.png" 
-          src-light="assets/images/linkedin_light.png" 
-          src-dark="assets/images/linkedin_dark.png" 
-          alt="My LinkedIn profile" class="icon" 
-          class="icon linkedin-icon"
-          onclick="window.open('https://linkedin.com/', '_blank')"
-          >
+          <img
+            src="assets/images/linkedin_light.png"
+            src-light="assets/images/linkedin_light.png"
+            src-dark="assets/images/linkedin_dark.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            class="icon linkedin-icon"
+            onclick="window.open('https://linkedin.com/', '_blank')"
+          />
           <p><a href="https://www.LinkedIn.com" target="_blank">LinkedIn</a></p>
         </div>
       </div>
