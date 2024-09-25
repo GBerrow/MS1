@@ -4,6 +4,8 @@ This website is a personal portfolio for John Doe, a Fullstack Developer. The si
 
 ![alt text](assets/images/responsive.png)<br>
 
+Quick link to deployed website - https://gberrow.github.io/MS1/
+
 ---
 
 ## Contents
