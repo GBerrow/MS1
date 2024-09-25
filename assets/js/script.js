@@ -27,5 +27,14 @@ btn2.addEventListener("click", function () {
     setTheme();
 });
 
+function setTheme() {
+    let currentTheme = document.body.getAttribute("theme");
+
+    if (currentTheme === "dark") {
+        setLightMode();
+    } else {
+        setDarkMode();
+    }
+}
 
 
