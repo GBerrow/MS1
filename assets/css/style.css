@@ -155,8 +155,7 @@ nav a:hover {
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: var(--primary-color);
-    width: fit-content;
+    background-color: #edecec; /* Specific colour for hamburger menu for slightly better visuals */
     max-height: 0;
     overflow: hidden;
 }
