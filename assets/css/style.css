@@ -89,7 +89,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: white;
+    background-color: var(--primary-color-2);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,20 +100,25 @@ nav {
 }
 
 a {
-    color: black;
+    color: var(--secondary-color);
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: var(----primary-color);
 }
 
 a:hover {
-    color: gray;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: var(--secondary-color);
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    text-decoration: var(--secondary-color);
 }
 
 .logo {
     font-size: 2rem;
+    color: var(--secondary-color);
 }
 
 .logo:hover {
@@ -143,14 +148,14 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: var(--secondary-color);
 }
 
 .menu-links {
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: white;
+    background-color: var(--primary-color);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -160,8 +165,7 @@ a:hover {
     display: block;
     padding: 10px;
     text-align: center;
-    color: black;
-    text-decoration: none;
+    color: var(----primary-color)
 }
 
 .menu-links li {
@@ -245,6 +249,7 @@ section {
 }
 
 .title {
+    color: var(--secondary-color);
     font-size: 3rem;
     text-align: center;
 }
@@ -280,7 +285,8 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(53, 53, 53) solid 0.1rem;
+    border: var(--button-border);
+    color: var(--secondary-color-2);
 }
 
 .btn-color-1:hover,
@@ -290,12 +296,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-    background: rgb(53, 53, 53);
-    color: white;
+    background: var(--button-background);
+    color: var(----primary-color);
 }
 
 .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    background: var(--secondary-color)
 }
 
 .btn-color-2 {
@@ -303,7 +309,8 @@ section {
 }
 
 .btn-color-2:hover {
-    border: rgb(255, 255, 255) solid 0.1rem;
+    border: var(--button-border);
+    background: var(--secondary-color);
 }
 
 .btn-container {
@@ -345,10 +352,10 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: var(--primary-color-2);
     border-radius: 2rem;
-    border: rgb(53, 53, 53) solid 0.1rem;
-    border-color: rgb(163, 163, 163);
+    border: var(--button-border);
+    border-color: var(--container-border);
     text-align: center;
 }
 
@@ -370,7 +377,7 @@ section {
 }
 
 .experience-sub-title {
-    color: rgb(85, 85, 85);
+    color: var(--secondary-color);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -409,8 +416,8 @@ article .icon {
 }
 
 .color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    border-color: var(--container-border);
+    background: var(--primary-color-2);
 }
 
 .project-img {
@@ -421,12 +428,12 @@ article .icon {
 
 .project-title {
     margin: 1rem;
-    color: black;
+    color: var(--secondary-color);
 }
 
 .project-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
+    color: var(--secondary-color);
+    border-color: var(--container-border);
 }
 
 /* CONTACT */
@@ -442,9 +449,9 @@ article .icon {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) solid 0.1rem;
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    border: var(--button-border);
+    border-color: var(--container-border);
+    background: var(--background-color);
     margin: 2rem auto;
     padding: 0.5rem;
 }
