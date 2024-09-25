@@ -209,8 +209,6 @@ Accessibility is a critical component of the website's design to ensure it is us
 
 To continuously improve the user experience and functionality of the portfolio website, several future implementations are planned:
 
-- **Dark Mode**: Introduce a dark mode feature to enhance user comfort during nighttime browsing and cater to user preferences.
-
 - **Search Functionality**: Implement a search feature that allows users to quickly find specific content or projects within the website.
 
 - **Enhanced Project Filtering**: Add filtering options in the Projects section to allow users to sort and view projects by technology stack, date, or project type.
@@ -222,6 +220,10 @@ To continuously improve the user experience and functionality of the portfolio w
 - **Accessibility Enhancements**: Continuously refine and improve accessibility features based on user feedback and emerging best practices.
 
 By incorporating these features and considering future enhancements, the website aims to provide a comprehensive and inclusive platform that effectively showcases John Doe's skills and achievements while offering a positive user experience for all visitors.
+
+### New Implementations
+
+- **Dark mode**: A dark mode option has been implemented to provide users with the flexibility to switch between light and dark themes based on their preference. This feature enhances user comfort, particularly in low-light environments, reducing eye strain. The dark mode seamlessly adjusts the color scheme of the entire website, ensuring that text remains legible and buttons, links, and other interactive elements are visually distinct. The dark mode toggle is accessible in both desktop and mobile versions, preserving the minimalist and modern aesthetic of the design.
 
 ---
 
@@ -237,10 +239,14 @@ This portfolio website was built using a variety of technologies to ensure a mod
 
 ### Tools and Platforms
 
-- **Git**: Version control is managed with Git, allowing for efficient tracking of changes and collaboration.
-- **GitHub**: The project is hosted on GitHub, providing a platform for version control and collaborative development.
-- **Gitpod**: The development environment used for coding, featuring extensions and tools that streamline the development process.
-- **Google Fonts**: Custom fonts from Google Fonts are used to improve the site's typography and overall aesthetic appeal.
+- **Git**: Version control is managed using Git, enabling efficient tracking of changes, branching, and collaborative development.
+- **GitHub**: The project is hosted on GitHub, offering version control, collaboration features, and easy access to the codebase for potential employers or collaborators.
+- **Gitpod**:  A cloud-based development environment used for coding, integrated with GitHub. It offers a seamless setup and includes essential extensions that streamline the development workflow.
+- **Google Fonts**: Custom fonts from Google Fonts, such as "Poppins," are used to enhance the site's typography, contributing to a clean, modern, and professional aesthetic.
+- **Imageonline**: A web tool used to merge images, helping create polished presentations of visuals, such as combining wireframes or screenshots for a professional look.
+- **Dead Link Checker**:  An online tool that verifies that all links within the project are functional, ensuring a smooth user experience with no broken or dead links.
+- **Developer Tools**: Used to inspect elements, debug JavaScript, and test responsiveness, ensuring that the site functions correctly across different browsers and devices.
+- **This Person Does Not Exist**: A tool that generates realistic AI-based human faces.
 
 ---
 
@@ -385,6 +391,10 @@ During testing, the following issues were identified and addressed:
 
 - **Navigation Bar Overlap on Mobile**: The navigation bar overlapped with content on smaller screens. This issue was resolved by adjusting the `z-index` and adding padding.
 - **Form Validation on Mobile**: Error messages for the contact form were not displaying correctly on mobile devices. This was resolved by updating the validation script to ensure proper mobile behavior.
+
+### Remaining Bugs
+
+- **Sticky NavBar On Smaller Devices** The sticky navbar feature is effective on larger screens, providing easy navigation without requiring the user to scroll back to the top. However, this feature has been disabled on smaller devices like smartphones and tablets. Since users can scroll more easily on these devices, the sticky navbar is less critical and might also take up valuable screen space, which is why it was excluded from smaller viewports.
 
 ## Conclusion
 
