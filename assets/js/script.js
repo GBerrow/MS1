@@ -19,3 +19,13 @@ if (currentTheme === "dark") {
     setDarkMode(); 
 }
 
+btn.addEventListener("click", function () {
+    setTheme();
+});
+
+btn2.addEventListener("click", function () {
+    setTheme();
+});
+
+
+
