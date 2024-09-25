@@ -229,26 +229,26 @@ By incorporating these features and considering future enhancements, the website
 
 ## Technologies Used
 
-This portfolio website was built using a variety of technologies to ensure a modern, responsive, and interactive user experience.
+This portfolio website was developed using a range of modern technologies to ensure a responsive, interactive, and user-friendly experience.
 
 ### Languages Used
 
-- **HTML5**: The structure of the website is built with HTML5, providing a semantic foundation for the content and layout.
-- **CSS3**: CSS3 is used for styling the website, ensuring a visually appealing and responsive design that adapts to various devices and screen sizes.
-- **JavaScript**: JavaScript is utilized to add interactive elements and enhance the user experience with dynamic content.
+- **HTML5**: Utilized for the semantic structure of the website, ensuring well-organized content and layout that aligns with accessibility standards.
+- **CSS3**: Applied for styling, including responsive design features to adapt the layout to different screen sizes and devices, as well as providing visual appeal with a minimalist, professional look.
+- **JavaScript**: Adds interactivity and dynamic content to the website, improving user engagement by enabling features like the dark mode toggle, form validation, and responsive navigation.
 
 ### Tools and Platforms
 
-- **Git**: Version control is managed using Git, enabling efficient tracking of changes, branching, and collaborative development.
-- **GitHub**: The project is hosted on GitHub, offering version control, collaboration features, and easy access to the codebase for potential employers or collaborators.
-- **Gitpod**: A cloud-based development environment used for coding, integrated with GitHub. It offers a seamless setup and includes essential extensions that streamline the development workflow.
-- **Google Fonts**: Custom fonts from Google Fonts, such as "Poppins," are used to enhance the site's typography, contributing to a clean, modern, and professional aesthetic.
-- **Imageonline**: A web tool used to merge images, helping create polished presentations of visuals, such as combining wireframes or screenshots for a professional look.
-- **Dead Link Checker**: An online tool that verifies that all links within the project are functional, ensuring a smooth user experience with no broken or dead links.
-- **Developer Tools**: Used to inspect elements, debug JavaScript, and test responsiveness, ensuring that the site functions correctly across different browsers and devices.
-- **This Person Does Not Exist**: A tool that generates realistic AI-based human faces.
-- **Font Awesome**: Provides a wide range of icons that enhance visual elements and improve the design's usability.
-- **Prettier Code Formater**: Ensures consistent code styling and formatting across the project, improving readability and maintainability.
+- **Git**: Used for version control, tracking all changes to the codebase and enabling efficient collaboration through branching, merging, and issue tracking.
+- **GitHub**: Hosts the project repository, allowing for collaboration, version control, and easy access to the codebase for contributors or potential employers. GitHub Pages could also be used to deploy the project.
+- **Gitpod**: A cloud-based Integrated Development Environment (IDE) that integrates seamlessly with GitHub, providing a consistent development environment with pre-configured extensions, auto-save features, and collaboration tools.
+- **Google Fonts**: Enhances the website’s typography with the use of the "Poppins" font, ensuring that the text is modern, clean, and readable across various devices and screen sizes.
+- **Imageonline**: A web-based tool used to merge and edit images, particularly for creating professional presentations of wireframes, designs, or screenshots.
+- **Dead Link Checker**: Ensures all links within the website are functional, preventing broken links and improving the overall user experience and professionalism of the site.
+- **Developer Tools**: Browser-based tools like Chrome DevTools and Firefox Developer Edition are used to inspect elements, debug JavaScript, monitor network activity, and test the website’s performance and responsiveness across multiple devices.
+- **This Person Does Not Exist**: AI-generated human faces were used to represent placeholder profile images for demonstration purposes, adding a realistic touch to the portfolio.
+- **Font Awesome**: A library of scalable vector icons that enhance visual elements such as navigation, social media links, and buttons, contributing to both the aesthetics and usability of the website.
+- **Prettier Code Formater**: Automatically formats code to ensure consistent styling, making the codebase easier to read and maintain, reducing errors, and improving collaboration.
 
 ---
 
