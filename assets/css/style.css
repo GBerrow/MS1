@@ -73,6 +73,13 @@ nav,
     align-items: center;
 }
 
+nav li:last-child {
+    width: max-content;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+
 nav {
     justify-content: space-around;
     height: 17vh;
