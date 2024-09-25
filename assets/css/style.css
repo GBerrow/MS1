@@ -38,8 +38,13 @@
     padding: 0;
 }
 
+h3 {
+    color: var(--secondary-color);
+}
+
 body {
     font-family: "poppins", sans-serif;
+    background-color: var(--background-color);
 }
 
 /* Smooth scroll behavior for anchor links */
@@ -50,6 +55,7 @@ html {
 
 p {
     color: rgb(85, 85, 85);
+    color: var(--secondary-color-2);
 }
 
 /* Transition effect for links and buttons */
@@ -64,11 +70,11 @@ a,
 nav,
 .nav-links {
     display: flex;
+    align-items: center;
 }
 
 nav {
     justify-content: space-around;
-    align-items: center;
     height: 17vh;
 }
 
