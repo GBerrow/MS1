@@ -144,7 +144,7 @@ The color scheme is minimalist, focusing on three primary colors:
 - **White (#FFFFFF):** Provides a clean and open background.
 - **Gray:** Highlights important elements like buttons and links.
 
-Down below is the website in both light and dark mode, showing the constrast in colours 
+Down below is the website in both light and dark mode, showing the constrast in colours
 ![Merged Picture](assets/images/design-picture-merged.png)
 
 ### Typography
@@ -241,12 +241,14 @@ This portfolio website was built using a variety of technologies to ensure a mod
 
 - **Git**: Version control is managed using Git, enabling efficient tracking of changes, branching, and collaborative development.
 - **GitHub**: The project is hosted on GitHub, offering version control, collaboration features, and easy access to the codebase for potential employers or collaborators.
-- **Gitpod**:  A cloud-based development environment used for coding, integrated with GitHub. It offers a seamless setup and includes essential extensions that streamline the development workflow.
+- **Gitpod**: A cloud-based development environment used for coding, integrated with GitHub. It offers a seamless setup and includes essential extensions that streamline the development workflow.
 - **Google Fonts**: Custom fonts from Google Fonts, such as "Poppins," are used to enhance the site's typography, contributing to a clean, modern, and professional aesthetic.
 - **Imageonline**: A web tool used to merge images, helping create polished presentations of visuals, such as combining wireframes or screenshots for a professional look.
-- **Dead Link Checker**:  An online tool that verifies that all links within the project are functional, ensuring a smooth user experience with no broken or dead links.
+- **Dead Link Checker**: An online tool that verifies that all links within the project are functional, ensuring a smooth user experience with no broken or dead links.
 - **Developer Tools**: Used to inspect elements, debug JavaScript, and test responsiveness, ensuring that the site functions correctly across different browsers and devices.
 - **This Person Does Not Exist**: A tool that generates realistic AI-based human faces.
+- **Font Awesome**: Provides a wide range of icons that enhance visual elements and improve the design's usability.
+- **Prettier Code Formater**: Ensures consistent code styling and formatting across the project, improving readability and maintainability.
 
 ---
 
