@@ -144,6 +144,9 @@ The color scheme is minimalist, focusing on three primary colors:
 - **White (#FFFFFF):** Provides a clean and open background.
 - **Gray:** Highlights important elements like buttons and links.
 
+Down below is the website in both light and dark mode, showing the constrast in colours 
+![Merged Picture](assets/images/design-picture-merged.png)
+
 ### Typography
 
 I went for a google font Poppins because of it's simple and effective look, making it easy for the eye to read. Below is a screenshot of the font.
@@ -159,12 +162,14 @@ The website uses a responsive grid layout with CSS Flexbox, optimized for all de
 - **Main content area** for portfolio highlights and skills.
 - **Footer** with social links and contact information.
 
+![Header/About/Footer](assets/images/design-picture-merged-2.png)
+
 ### Wireframes
 
 Only a singular wireframe was created in https://app.diagrams.net/
 As the simplicity of the website only needed 1 layout.
 
-![alt text](assets/images/wireframe.png)<br>
+![Wireframe](assets/images/wireframe.png)<br>
 
 ### User Experience (UX) Considerations
 
