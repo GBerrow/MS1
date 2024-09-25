@@ -1,56 +1,56 @@
 // Toggle the mobile menu when the hamburger icon is clicked
 function toggleMenu() {
-    const menu = document.querySelector(".menu-links")
-    const icon = document.querySelector(".hamburger-icon")
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
 
-    // Toggle the 'open' class on both the menu and icon for animation
-    menu.classList.toggle("open");
-    icon.classList.toggle("open");
+  // Toggle the 'open' class on both the menu and icon for animation
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
 }
 
 // Dark / Light mode
 
 const btn = document.getElementById("modeToggle");
 const btn2 = document.getElementById("modeToggle2");
-const themeIcons =  document.querySelectorAll(".icon");
+const themeIcons = document.querySelectorAll(".icon");
 const currentTheme = localStorage.getItem("theme");
 
 if (currentTheme === "dark") {
-    setDarkMode(); 
+  setDarkMode();
 }
 
 btn.addEventListener("click", function () {
-    setTheme();
+  setTheme();
 });
 
 btn2.addEventListener("click", function () {
-    setTheme();
+  setTheme();
 });
 
 function setTheme() {
-    let currentTheme = document.body.getAttribute("theme");
+  let currentTheme = document.body.getAttribute("theme");
 
-    if (currentTheme === "dark") {
-        setLightMode();
-    } else {
-        setDarkMode();
-    }
+  if (currentTheme === "dark") {
+    setLightMode();
+  } else {
+    setDarkMode();
+  }
 }
 
 function setDarkMode() {
-    document.body.setAttribute("theme", "dark");
-    localStorage.setItem("theme", "dark");
-  
-    themeIcons.forEach((icon) => {
-      icon.src = icon.getAttribute("src-dark");
-    });
-  }
-  
-  function setLightMode() {
-    document.body.removeAttribute("theme");
-    localStorage.setItem("theme", "light");
-  
-    themeIcons.forEach((icon) => {
-      icon.src = icon.getAttribute("src-light");
-    });
-  }
+  document.body.setAttribute("theme", "dark");
+  localStorage.setItem("theme", "dark");
+
+  themeIcons.forEach((icon) => {
+    icon.src = icon.getAttribute("src-dark");
+  });
+}
+
+function setLightMode() {
+  document.body.removeAttribute("theme");
+  localStorage.setItem("theme", "light");
+
+  themeIcons.forEach((icon) => {
+    icon.src = icon.getAttribute("src-light");
+  });
+}
