@@ -296,7 +296,7 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
     background: var(--button-background);
-    color: var(----primary-color);
+    color: var(--primary-color);
 }
 
 .btn-color-1:hover {
