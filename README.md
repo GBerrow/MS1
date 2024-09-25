@@ -421,25 +421,32 @@ In summary, the website is optimized for a wide audience, offering a fast, acces
 
 ## Credits
 
-This portfolio website was developed with the help of various tools, resources, and inspirations. Below is a list of the key contributions and attributions:
+This portfolio website was developed using various tools, resources, and inspirations. Below are key contributions, attributions, and acknowledgments that helped shape this project:
 
-### Code Used
+### Code Contributions
 
-- **Custom HTML and CSS**: All HTML and CSS used in this project were written by me, but I used ChatGPT to help structure and fix any mistakes I have made
-- **JavaScript for Interactivity**: Custom JavaScript was written by myself to handle interactive elements.
+- **Custom HTML and CSS**: The entire structure of the website, including the layout and styling, was developed by me. ChatGPT provided assistance in refining the structure and resolving code issues along the way.
+- **JavaScript for Interactivity**: I wrote custom JavaScript to manage interactivity on the site, such as toggling between dark and light mode and handling the navigation menu.
 
-### Content
+### Content Creation
 
-- **Professional Content**: All text, including descriptions of projects, professional experiences, and skills, was created by Myself. I have used a couple of extensions like Prettier formarter and Docker and to help strucutre my content.
-- **Contact Information**: John Doe's contact information and professional details are included to provide a way for potential employers or collaborators to reach out.
-- **Website Layout** : My idea for the template of my website was inspired from (https://www.w3schools.com/w3css/w3css_templates.asp). They have endless templates for you to use and help get your project underway.
+- **Professional Content**: All text content, including project descriptions, professional experience summaries, and skillset details, was created by me. Tools like Prettier and Docker were used to format the content and ensure a clean structure.
+- **Contact Information**: Placeholder contact information for John Doe is provided to demonstrate the functionality of the contact section.
+- **Layout Inspiration**: The layout concept for this site was inspired by templates available on [W3Schools](https://www.w3schools.com/w3css/w3css_templates.asp), which helped guide the structure and flow of the website.
 
-### Media
+### Media and Graphics
 
-- **Images**: All images used in the project are generated from ChatGPT image generator and (https://this-person-does-not-exist.com/en)
+- **Profile and Placeholder Images**: All images, including the profile picture, were generated through [This Person Does Not Exist](https://this-person-does-not-exist.com/en) to create unique, non-copyrighted visuals.
+- **Icons and Visual Elements**: Icons used throughout the site were sourced from [Font Awesome](https://fontawesome.com/), enhancing the visual appeal and usability of the design.
+
+### Tools and Resources
+
+- **Git and GitHub**: Version control for this project was managed using Git and hosted on GitHub, allowing for efficient tracking of changes and collaboration.
+- **Gitpod**: Development took place within the Gitpod environment, providing seamless integration of coding, testing, and debugging tools.
+- **Prettier Code Formatter**: Prettier was used to maintain consistent code styling, ensuring that the HTML, CSS, and JavaScript are clean and readable.
 
 ### Acknowledgments
 
-- **Online Resources and Tutorials**: The development of this site was supported by tutorials and documentation available on platforms like [MDN Web Docs](https://developer.mozilla.org/) and [W3Schools](https://www.w3schools.com/).
-- **Feedback and Testing**: Special thanks to friends, family, and peers (On Slack) who provided feedback and helped test the website across different devices and browsers.
-- **Inspiration**: Various design inspirations were taken from popular portfolio websites and web design showcases to ensure the website meets modern standards and expectations.
+- **Educational Resources**: This project benefited from tutorials and documentation provided by [MDN Web Docs](https://developer.mozilla.org/) and [W3Schools](https://www.w3schools.com/), which were invaluable for resolving development challenges.
+- **Peer Support and Feedback**: Special thanks to friends, family, and peers on Slack for offering valuable feedback and assisting with testing the site across different devices and browsers.
+- **Design Inspiration**: Various modern portfolio websites and design showcases served as inspiration, ensuring that the final result is visually appealing and meets current design standards.
