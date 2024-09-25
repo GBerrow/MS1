@@ -2,143 +2,142 @@
 
 /* Styles for devices with a max-width of 1400px (Large screens) */
 @media screen and (max-width: 1400px) {
-    #profile {
-        height: 83vh;
-        margin-bottom: 6rem;
-    }
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
 
-    /* Wrap about section containers to prevent overflow on smaller screens */
-    .about-containers {
-        flex-wrap: wrap;
-    }
+  /* Wrap about section containers to prevent overflow on smaller screens */
+  .about-containers {
+    flex-wrap: wrap;
+  }
 }
 
 /* Styles for devices with a max-width of 1200px (Tablets) */
 @media screen and (max-width: 1200px) {
-    /* Hide desktop nav and display the hamburger menu for mobile navigation */
-    #desktop-nav {
-        display: none;
-    }
+  /* Hide desktop nav and display the hamburger menu for mobile navigation */
+  #desktop-nav {
+    display: none;
+  }
 
-    #hamburger-nav {
-        display: flex;
-    }
+  #hamburger-nav {
+    display: flex;
+  }
 
-    /* Adjust experience section margin for smaller screens */
-    #experience,
-    .experience-detials-container {
-        margin-top: 2rem;
-    }
+  /* Adjust experience section margin for smaller screens */
+  #experience,
+  .experience-detials-container {
+    margin-top: 2rem;
+  }
 
-    #profile,
-    .section-container {
-        display: block;
-    }
+  #profile,
+  .section-container {
+    display: block;
+  }
 
-     /* Hide the arrow icon (for navigation to next section) */
-    .arrow {
-        display: none;
-    }
+  /* Hide the arrow icon (for navigation to next section) */
+  .arrow {
+    display: none;
+  }
 
-    /* Adjust height and margin of sections for better fit on smaller screens */
-    section,
-    .section-container {
-        height: fit-content;
-    }
+  /* Adjust height and margin of sections for better fit on smaller screens */
+  section,
+  .section-container {
+    height: fit-content;
+  }
 
-    section {
-        margin: 0 5%;
-    }
+  section {
+    margin: 0 5%;
+  }
 
-    /* Resize profile picture container for smaller screens */
-    .section__pic-container {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
-    }
+  /* Resize profile picture container for smaller screens */
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
 
-    /* Adjust margin on about section for better spacing */
-    .about-containers {
-        margin-top: 0;
-    }
+  /* Adjust margin on about section for better spacing */
+  .about-containers {
+    margin-top: 0;
+  }
 }
 
 /* Styles for devices with a max-width of 600px (Mobile) */
 @media screen and (max-width: 600px) {
+  /* Adjust contact section and footer height for mobile screens */
+  #contact,
+  footer {
+    height: 40vh;
+  }
 
-    /* Adjust contact section and footer height for mobile screens */
-    #contact,
-    footer {
-        height: 40vh;
-    }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
 
-    #profile {
-        height: 83vh;
-        margin-bottom: 0;
-    }
+  /* Reduce font size for articles to fit better on small screens */
+  article {
+    font-size: 1rem;
+  }
 
-    /* Reduce font size for articles to fit better on small screens */
-    article {
-        font-size: 1rem;
-    }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
 
-    footer nav {
-        height: fit-content;
-        margin-bottom: 2rem;
-    }
+  /* Enable wrapping for containers to handle smaller screen width */
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
 
-    /* Enable wrapping for containers to handle smaller screen width */
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
-        flex-wrap: wrap;
-    }
+  .contact-info-container {
+    margin: 0;
+  }
 
-    .contact-info-container {
-        margin: 0;
-    }
+  /* Reduce font size for text and navigation links */
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
 
-    /* Reduce font size for text and navigation links */
-    .contact-info-container p,
-    .nav-links li a {
-        font-size: 1rem;
-    }
+  /* Adjust experience section title size for readability */
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
 
-    /* Adjust experience section title size for readability */
-    .experience-sub-title {
-        font-size: 1.25rem;
-    }
+  /* Reduce logo size for smaller screens */
+  .logo {
+    font-size: 1.5rem;
+  }
 
-    /* Reduce logo size for smaller screens */
-    .logo {
-        font-size: 1.5rem;
-    }
+  /* Stack navigation links vertically for mobile */
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
 
-    /* Stack navigation links vertically for mobile */
-    .nav-links {
-        flex-direction: column;
-        gap: 0.5rem;
-        text-align: center;
-    }
+  /* Adjust profile picture container size based on viewport width */
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
 
-    /* Adjust profile picture container size based on viewport width */
-    .section__pic-container {
-        width: auto;
-        height: 46vw;
-        justify-content: center;
-    }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
 
-    .section__text__p2 {
-        font-size: 1.25rem;
-    }
+  /* Reduce title font size for mobile screens */
+  .title {
+    font-size: 2rem;
+  }
 
-    /* Reduce title font size for mobile screens */
-    .title {
-        font-size: 2rem;
-    }
-
-    /* Set text alignment to justify for better readability on small screens */
-    .text-container {
-        text-align: justify;
-    }
+  /* Set text alignment to justify for better readability on small screens */
+  .text-container {
+    text-align: justify;
+  }
 }
