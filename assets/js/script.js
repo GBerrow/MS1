@@ -40,17 +40,17 @@ function setTheme() {
 function setDarkMode() {
     document.body.setAttribute("theme", "dark");
     localStorage.setItem("theme", "dark");
-
-    themeIcons.forEach((icons) => {
-       icon.src = icon.getAttribute("src-dark");
+  
+    themeIcons.forEach((icon) => {
+      icon.src = icon.getAttribute("src-dark");
     });
-}
-
-function setLightMode() {
-    document.body.setAttribute("theme");
+  }
+  
+  function setLightMode() {
+    document.body.removeAttribute("theme");
     localStorage.setItem("theme", "light");
-
-    themeIcons.forEach((icons) => {
-       icon.src = icon.getAttribute("src-light");
+  
+    themeIcons.forEach((icon) => {
+      icon.src = icon.getAttribute("src-light");
     });
-}
+  }
