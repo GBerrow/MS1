@@ -136,7 +136,7 @@ The website was designed with several key users in mind, ensuring that their nee
 
 The website is designed with a modern and clean aesthetic to ensure a user-friendly experience that aligns with John Doe's professional brand.
 
-### Color Scheme
+### Colour Scheme
 
 The color scheme is minimalist, focusing on three primary colors:
 
