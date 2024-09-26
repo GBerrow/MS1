@@ -23,17 +23,24 @@ Quick link to deployed website - https://gberrow.github.io/MS1/
   - [Future Implementations](#future-implementations)
 - [Technologies Used](#technologies-used)
   - [Languages Used](#languages-used)
-  - [Tools and Platforms](#Tools-and-Platforms)
-- [Deployment & Local Development](#deployment--local-development)
+  - [Tools and Platforms](#tools-and-platforms)
+- [Deployment & Local Development](#deployment-local-development)
   - [Deployment](#deployment)
   - [Local Development](#local-development)
     - [How to Fork](#how-to-fork)
     - [How to Clone](#how-to-clone)
 - [Testing](#testing)
+  - [Full Device and Browser Testing](#full-device-and-browser-testing)
+  - [Mobile Responsiveness Testing](#mobile-responsiveness-testing)
+  - [Cross Browser Console Output Testing](#cross-browser-console-output-testing)
+  - [Edge Case Testing](#edge-case-testing)
+  - [Broken Links Testing](#broken-links-testing)
+  - [Conclusion](#conclusion)
 - [Credits](#credits)
-  - [Code Used](#code-used)
-  - [Content](#content)
-  - [Media](#media)
+  - [Code Contributions](#code-contributions)
+  - [Content Creation](#content-creation)
+  - [Media and Graphics](#media-and-graphics)
+  - [Tools and Resources](#tools-and-resources)
   - [Acknowledgments](#acknowledgments)
 
 ---
@@ -345,7 +352,7 @@ The website was tested on various mobile devices to ensure responsiveness and fu
 
 Both portrait and landscape modes were tested to ensure that the layout, images, and interactive elements adjusted correctly. All interactions, such as tapping buttons and submitting forms, worked as expected, with no visual or functional issues identified.
 
-### Cross-Browser Console Output Testing
+### Cross Browser Console Output Testing
 
 The website was tested using the developer console in each major browser, as shown below:
 
