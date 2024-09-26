@@ -204,7 +204,7 @@ The portfolio website for John Doe includes several features designed to provide
 
 - **Contact Form**: The Contact section includes a user-friendly form that allows visitors to send messages directly to John Doe. The form includes validation to ensure the correct format of submitted information.
 
-- **Footer with Social Links**: A footer is present on every page, containing links to John Doe’s social media profiles and GitHub, making it easy for users to connect and follow his professional updates.
+- **Footer with Social Links**: A footer is present on the page, containing links to John Doe’s social media profiles and GitHub, making it easy for users to connect and follow his professional updates.
 
 ### Accessibility
 
@@ -256,6 +256,7 @@ This portfolio website was developed using a range of modern technologies to ens
 - **This Person Does Not Exist**: AI-generated human faces were used to represent placeholder profile images for demonstration purposes, adding a realistic touch to the portfolio.
 - **Font Awesome**: A library of scalable vector icons that enhance visual elements such as navigation, social media links, and buttons, contributing to both the aesthetics and usability of the website.
 - **Prettier Code Formater**: Automatically formats code to ensure consistent styling, making the codebase easier to read and maintain, reducing errors, and improving collaboration.
+- **Am I Responsive**: A web-based tool showcasing that the website works seamlessly on all browsing devices. 
 
 ---
 
