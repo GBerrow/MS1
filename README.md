@@ -24,7 +24,7 @@ Quick link to deployed website - https://gberrow.github.io/MS1/
 - [Technologies Used](#technologies-used)
   - [Languages Used](#languages-used)
   - [Tools and Platforms](#tools-and-platforms)
-- [Deployment & Local Development](#deployment-local-development)
+- [Deployment and Local Development](#deployment-and-local-development)
   - [Deployment](#deployment)
   - [Local Development](#local-development)
     - [How to Fork](#how-to-fork)
@@ -259,8 +259,8 @@ This portfolio website was developed using a range of modern technologies to ens
 
 ---
 
-## Deployment & Local Development
-
+## Deployment and Local Development
+  
 This section provides details on how to deploy the portfolio website and how to set up the project for local development. It includes instructions for both deployment to a live server and running the website locally on your machine.
 
 ### Deployment
