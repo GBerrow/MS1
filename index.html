@@ -21,6 +21,7 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <!-- Button to toggle light/dark mode -->
           <li>
             <img
               id="modeToggle"
@@ -49,6 +50,7 @@
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <!-- Toggle button for light/dark mode in mobile -->
           <li>
             <img
               id="modeToggle2"
@@ -72,11 +74,12 @@
         />
       </div>
       <div class="section__text">
+        <!-- Introduction text -->
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">John Doe</h1>
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
-          <!-- Button to download CV -->
+        <!-- Buttons for downloading CV and viewing contact info -->
           <button
             class="btn btn-color-2"
             onclick="window.open('assets/images/resume-example.pdf')"
@@ -87,7 +90,7 @@
             Contact info
           </button>
         </div>
-        <!-- Social Media Links -->
+        <!-- Social Media Links (LinkedIn & GitHub) -->
         <div id="socials-container">
           <img
             src="assets/images/linkedin_light.png"
@@ -112,10 +115,11 @@
     </section>
     <!-- About Section -->
     <section id="about">
+      <!-- Section title and introduction -->
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <!-- About Me Picture -->
+        <!-- Picture for About section -->
         <div class="section__pic-container">
           <img
             src="assets/images/about-pic.png"
@@ -123,6 +127,7 @@
             class="about-pic"
           />
         </div>
+        <!-- Experience and Education details -->
         <div class="about-details-container">
           <div class="about-containers">
             <!-- Experience Details -->
@@ -171,6 +176,7 @@
           </div>
         </div>
       </div>
+       <!-- Navigation arrow to experience section -->
       <img
         src="assets/images/arrow_light.png"
         src-light="assets/images/arrow_light.png"
@@ -182,6 +188,7 @@
     </section>
     <!-- Experience Section -->
     <section id="experience">
+      <!-- Section introduction -->
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
@@ -190,6 +197,7 @@
             <!-- Frontend Experience Details -->
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
+              <!-- Skill - HTML -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -203,6 +211,7 @@
                   <p>Experienced</p>
                 </div>
               </article>
+              <!-- Skill - CSS -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -216,6 +225,7 @@
                   <p>Experienced</p>
                 </div>
               </article>
+              <!-- Skill - SASS -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -229,6 +239,7 @@
                   <p>Intermediate</p>
                 </div>
               </article>
+              <!-- Skill - JavaScript -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -242,6 +253,7 @@
                   <p>Basic</p>
                 </div>
               </article>
+              <!-- Skill - TypeScript -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -255,6 +267,7 @@
                   <p>Basic</p>
                 </div>
               </article>
+              <!-- Skill - Material UI -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -270,10 +283,11 @@
               </article>
             </div>
           </div>
-          <!-- Backend Experience Details -->
+          <!-- Backend Development Skills -->
           <div class="details-container">
             <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
+              <!-- Skill - PostGreSQL -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -287,6 +301,7 @@
                   <p>Basic</p>
                 </div>
               </article>
+               <!-- Skill - Node JS -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -300,6 +315,7 @@
                   <p>Intermediate</p>
                 </div>
               </article>
+               <!-- Skill - Express JS -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -313,6 +329,7 @@
                   <p>Intermediate</p>
                 </div>
               </article>
+              <!-- Skill - Git -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -326,6 +343,7 @@
                   <p>Intermediate</p>
                 </div>
               </article>
+              <!-- Skill - Python -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -339,6 +357,7 @@
                   <p>Experienced</p>
                 </div>
               </article>
+              <!-- Skill - C# -->
               <article>
                 <img
                   src="assets/images/checkmark_light.png"
@@ -356,6 +375,7 @@
           </div>
         </div>
       </div>
+      <!-- Navigation arrow to Projects section -->
       <img
         src="assets/images/arrow_light.png"
         src-light="assets/images/arrow_light.png"
@@ -367,6 +387,7 @@
     </section>
     <!-- Projects Section -->
     <section id="projects">
+      <!-- Section introduction -->
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -374,13 +395,16 @@
           <!-- Project One -->
           <div class="details-container color-container">
             <div class="article-container">
+              <!-- Project image -->
               <img
                 src="assets/images/project-1.png"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
+            <!-- Project title -->
             <h2 class="experience-sub-title project-title">Guaro Glamping</h2>
+            <!-- Buttons for GitHub and live demo -->
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -405,9 +429,11 @@
                 class="project-img"
               />
             </div>
+            <!-- Project title -->
             <h2 class="experience-sub-title project-title">
               Pawsome Detective
             </h2>
+            <!-- Buttons for GitHub and live demo -->
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -432,7 +458,9 @@
                 class="project-img"
               />
             </div>
+            <!-- Project title -->
             <h2 class="experience-sub-title project-title">Mountain Magic</h2>
+            <!-- Buttons for GitHub and live demo -->
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -461,10 +489,11 @@
     </section>
     <!-- Contact Section -->
     <section id="contact">
+      <!-- Section title -->
       <p class="section__text__p1">Get In Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
-        <!-- Contact Information -->
+        <!-- Contact Information - Email -->
         <div class="contact-info-container">
           <img
             src="assets/images/email_light.png"
@@ -475,6 +504,7 @@
           />
           <p><a href="mailto:JohnDoe@gmail.com">JohnDoe@gmail.com</a></p>
         </div>
+        <!-- Contact Information - LinkedIn -->
         <div class="contact-info-container">
           <img
             src="assets/images/linkedin_light.png"
@@ -493,6 +523,7 @@
     <footer>
       <nav>
         <div class="nav-links-container">
+          <!-- Footer navigation links -->
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
@@ -501,8 +532,10 @@
           </ul>
         </div>
       </nav>
+      <!-- Copyright information -->
       <p>Copyright &#169; 2024 John Doe. All Rights Reserved.</p>
     </footer>
+     <!-- JavaScript file -->
     <script src="assets/js/script.js"></script>
   </body>
 </html>
