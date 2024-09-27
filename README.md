@@ -455,6 +455,11 @@ This portfolio website was developed using various tools, resources, and inspira
 
 ### Acknowledgments
 
+- **Tutor Support**: A special thanks to my mentor for providing valuable feedback and guidance throughout this project, helping me refine the code and user experience.
+- **External Project Contributions**: The following GitHub repositories and live websites were used as placeholders in the "Projects" section of my portfolio:
+  - [Guaro Glamping - GitHub Repo](https://github.com/coatespeter/first-project-gglamping) | [Live Demo](https://coatespeter.github.io/first-project-gglamping/index.html)
+  - [Pawsome Detective - GitHub Repo](https://github.com/DasUnicorn/pawsome) | [Live Demo](https://dasunicorn.github.io/pawsome/)
+  - [Mountain Magic - GitHub Repo](https://github.com/adrianskelton/Project_1_Mountain_Magic) | [Live Demo](https://adrianskelton.github.io/Project_1_Mountain_Magic/)
 - **Educational Resources**: This project benefited from tutorials and documentation provided by [MDN Web Docs](https://developer.mozilla.org/) and [W3Schools](https://www.w3schools.com/), which were invaluable for resolving development challenges.
 - **Peer Support and Feedback**: Special thanks to friends, family, and peers on Slack for offering valuable feedback and assisting with testing the site across different devices and browsers.
 - **Design Inspiration**: Various modern portfolio websites and design showcases served as inspiration, ensuring that the final result is visually appealing and meets current design standards.
