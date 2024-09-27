@@ -3,7 +3,7 @@
 /* Importing Poppins font for the entire project */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-/* Defualt Light Mode */
+/* Default Light Mode - Define CSS variables for light mode */
 :root {
   --primary-color: white;
   --primary-color-2: rgb(250, 250, 250);
@@ -18,9 +18,9 @@
   --container-border: rgb(163, 163, 163);
 }
 
-/* Dark Mode */
+/* Dark Mode - Overwrite variables for dark mode when applied */
 [theme="dark"] {
-  ----primary-color: black;
+  --primary-color: black;
   --primary-color-2: rgb(39, 39, 39);
   --primary-color-3: rgb(74, 74, 74);
   --background-color: rgb(33, 33, 33);
@@ -33,33 +33,35 @@
   --container-border: rgb(92, 92, 92);
 }
 
+/* Remove default margin and padding from all elements */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Global heading styling */
 h3 {
   color: var(--secondary-color);
 }
 
+/* Body styling - use Poppins font and set background color */
 body {
   font-family: "poppins", sans-serif;
   background-color: var(--background-color);
 }
 
 /* Smooth scroll behavior for anchor links */
-
 html {
   scroll-behavior: smooth;
 }
 
+/* Default paragraph color */
 p {
   color: rgb(85, 85, 85);
   color: var(--secondary-color-2);
 }
 
 /* Transition effect for links and buttons */
-
 a,
 .btn {
   transition: all 300ms ease;
@@ -67,12 +69,14 @@ a,
 
 /* DESKTOP NAV */
 
+/* Style the navigation bar and its elements */
 nav,
 .nav-links {
   display: flex;
   align-items: center;
 }
 
+/* Style the last child of navigation list items */
 nav li:last-child {
   width: max-content;
   display: flex;
@@ -80,11 +84,13 @@ nav li:last-child {
   padding: 10px;
 }
 
+/* Style the desktop navigation bar */
 nav {
   justify-content: space-around;
   height: 17vh;
 }
 
+/* Sticky navigation bar with shadow */
 #desktop-nav {
   position: sticky;
   top: 0;
@@ -93,49 +99,58 @@ nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for navigation links */
 .nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
 }
 
+/* Anchor link styles */
 a {
   color: var(--secondary-color);
   text-decoration: none;
   text-decoration-color: var(----primary-color);
 }
 
+/* Hover effects for links */
 a:hover {
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: var(--secondary-color);
 }
 
+/* Hover effects for navigation links */
 nav a:hover {
   color: var(--secondary-color);
   text-decoration: var(--secondary-color);
 }
 
+/* Styling the logo */
 .logo {
   font-size: 2rem;
   color: var(--secondary-color);
 }
 
+/* Prevent default cursor on logo hover */
 .logo:hover {
   cursor: default;
 }
 
 /* HAMBURGER MENU */
 
+/* Hide the hamburger menu by default (visible on mobile) */
 #hamburger-nav {
   display: none;
 }
 
+/* Styling the hamburger menu and its icon */
 .hamburger-menu {
   position: relative;
   display: inline-block;
 }
 
+/* Style for the hamburger icon */
 .hamburger-icon {
   display: flex;
   flex-direction: column;
@@ -145,12 +160,14 @@ nav a:hover {
   cursor: pointer;
 }
 
+/* Styling for hamburger menu lines */
 .hamburger-icon span {
   width: 100%;
   height: 2px;
   background-color: var(--secondary-color);
 }
 
+/* Hamburger menu links (hidden by default) */
 .menu-links {
   position: absolute;
   top: 100%;
@@ -160,6 +177,7 @@ nav a:hover {
   overflow: hidden;
 }
 
+/* Styling for links in the hamburger menu */
 .menu-links a {
   display: block;
   padding: 10px;
@@ -167,14 +185,17 @@ nav a:hover {
   color: var(----primary-color);
 }
 
+/* Remove bullet points from the menu list */
 .menu-links li {
   list-style: none;
 }
 
+/* Open state for the hamburger menu (max height set to show) */
 .menu-links.open {
   max-height: 300px;
 }
 
+/* Hamburger icon transformations when the menu is open */
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
@@ -187,10 +208,12 @@ nav a:hover {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
+/* Reset transforms for closed state */
 .hamburger-icon span:first-child {
   transform: none;
 }
 
+/* Reset opacity for closed state */
 .hamburger-icon span:first-child {
   opacity: 1;
 }
@@ -201,6 +224,7 @@ nav a:hover {
 
 /* SECTIONS */
 
+/* General styling for all sections */
 section {
   padding-top: 4vh;
   height: 96vh;
@@ -209,12 +233,14 @@ section {
   min-height: fit-content;
 }
 
+/* Flexbox layout for section containers */
 .section-container {
   display: flex;
 }
 
 /* PROFILE SECTION */
 
+/* Profile section layout */
 #profile {
   display: flex;
   justify-content: center;
@@ -222,6 +248,7 @@ section {
   height: 80vh;
 }
 
+/* Container for the profile picture */
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -229,30 +256,36 @@ section {
   margin: auto 0;
 }
 
+/* Text container for the profile section */
 .section__text {
   align-self: center;
   text-align: center;
 }
 
+/* Styling for the text in the profile section */
 .section__text p {
   font-weight: 600;
 }
 
+/* Styling for the first paragraph in the profile section */
 .section__text__p1 {
   text-align: center;
 }
 
+/* Styling for the second paragraph in the profile section */
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
 
+/* Styling for the main title */
 .title {
   color: var(--secondary-color);
   font-size: 3rem;
   text-align: center;
 }
 
+/* Flexbox layout for social media icons */
 #socials-container {
   display: flex;
   justify-content: center;
@@ -262,6 +295,7 @@ section {
 
 /* ICONS */
 
+/* General styling for all icons */
 .icon {
   cursor: pointer;
   height: 2rem;
@@ -269,11 +303,13 @@ section {
 
 /* BUTTONS */
 
+/* Flexbox layout for button container */
 .btn-container {
   display: flex;
   justify-content: center;
 }
 
+/* General button styling */
 .btn {
   font-weight: 600;
   transition: all 300ms ease;
@@ -282,12 +318,14 @@ section {
   border-radius: 2rem;
 }
 
+/* Button colors and borders */
 .btn-color-1,
 .btn-color-2 {
   border: var(--button-border);
   color: var(--secondary-color-2);
 }
 
+/* Button hover effects */
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
@@ -299,55 +337,66 @@ section {
   color: var(--primary-color);
 }
 
+/* Hover effect for specific button */
 .btn-color-1:hover {
   background: var(--secondary-color);
 }
 
+/* Transparent background for second button */
 .btn-color-2 {
   background: none;
 }
 
+/* Hover effect for second button */
 .btn-color-2:hover {
   border: var(--button-border);
   background: var(--secondary-color);
 }
 
+/* Flexbox gap between buttons */
 .btn-container {
   gap: 1rem;
 }
 
 /* ABOUT SECTION */
 
+/* Set relative position for About section */
 #about {
   position: relative;
 }
 
+/* Layout adjustments for about section containers */
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
+/* Layout for the about details container */
 .about-details-container {
   justify-content: center;
   flex-direction: column;
 }
 
+/* Flexbox layout for the about containers */
 .about-containers,
 .about-details-container {
   display: flex;
 }
 
+/* Add border radius to the about section picture */
 .about-pic {
   border-radius: 2rem;
 }
 
+/* Arrow icon for navigation */
 .arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
 }
 
+/* Styling for details container in About section */
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -358,11 +407,13 @@ section {
   text-align: center;
 }
 
+/* Gap and height adjustment for about section */
 .section-container {
   gap: 4rem;
   height: 80%;
 }
 
+/* Dimensions for profile picture in about section */
 .section__pic-container {
   height: 400px;
   width: 400px;
@@ -371,10 +422,12 @@ section {
 
 /* EXPERIENCE SECTION */
 
+/* Set relative position for Experience section */
 #experience {
   position: relative;
 }
 
+/* Styling for sub-titles in Experience section */
 .experience-sub-title {
   color: var(--secondary-color);
   font-weight: 600;
@@ -382,12 +435,14 @@ section {
   margin-bottom: 2rem;
 }
 
+/* Container for experience details */
 .experince-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
+/* Flexbox layout for experience articles */
 .article-container {
   display: flex;
   text-align: initial;
@@ -397,6 +452,7 @@ section {
   justify-content: space-around;
 }
 
+/* Styling for individual articles */
 article {
   display: flex;
   width: 10rem;
@@ -404,32 +460,38 @@ article {
   gap: 0.5rem;
 }
 
+/* Disable cursor for icons within articles */
 article .icon {
   cursor: default;
 }
 
 /* PROJECTS SECTION */
 
+/* Set relative position for Projects section */
 #projects {
   position: relative;
 }
 
+/* Style for colored containers in Projects section */
 .color-container {
   border-color: var(--container-border);
   background: var(--primary-color-2);
 }
 
+/* Style for project images */
 .project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
 }
 
+/* Styling for project titles */
 .project-title {
   margin: 1rem;
   color: var(--secondary-color);
 }
 
+/* Styling for buttons in Projects section */
 .project-btn {
   color: var(--secondary-color);
   border-color: var(--container-border);
@@ -437,6 +499,7 @@ article .icon {
 
 /* CONTACT */
 
+/* Flexbox layout for Contact section */
 #contact {
   display: flex;
   justify-content: center;
@@ -444,6 +507,7 @@ article .icon {
   height: 70vh;
 }
 
+/* Styling the upper container for contact info */
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
@@ -455,6 +519,7 @@ article .icon {
   padding: 0.5rem;
 }
 
+/* Flexbox layout for individual contact info */
 .contact-info-container {
   display: flex;
   align-items: center;
@@ -463,25 +528,30 @@ article .icon {
   margin: 1rem;
 }
 
+/* Styling the paragraph in contact info container */
 .contact-info-fontainer p {
   font-size: larger;
 }
 
+/* Prevent pointer cursor on contact icons */
 .contact-icon {
   cursor: default;
 }
 
+/* Size adjustments for email icon */
 .email-icon {
   height: 2.5rem;
 }
 
 /* FOOTER SECTION */
 
+/* Footer height and margin */
 footer {
   height: 26vh;
   margin: 0 1rem;
 }
 
+/* Footer text alignment */
 footer p {
   text-align: center;
 }
